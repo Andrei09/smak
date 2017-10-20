@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test landing page</title>
+    <meta name="theme-color" content="rgba(18, 42, 47, 0.9)">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+</head>
+<body>
+<header id="site-header">
+    <div class="wrapper">
+        <div class="top-section">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="39px" height="59px">
+                    <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                          d="M38.634,26.634 L38.634,27.261 L38.634,28.088 L37.814,28.200 L29.597,29.336 L28.518,29.485 L28.518,28.396 C28.518,28.224 28.529,27.954 28.553,27.585 C28.574,27.263 28.584,27.005 28.584,26.802 C28.584,26.328 28.552,25.868 28.486,25.435 C28.422,25.013 28.314,24.585 28.168,24.165 C28.057,23.850 27.901,23.613 27.690,23.441 C27.510,23.294 27.297,23.227 27.019,23.227 C26.474,23.227 26.114,23.409 25.853,23.816 C25.513,24.350 25.347,24.978 25.347,25.731 C25.347,26.436 25.457,27.100 25.674,27.706 C25.888,28.310 26.223,28.886 26.667,29.416 C27.156,30.003 27.610,30.492 28.016,30.871 C28.440,31.265 29.010,31.754 29.715,32.324 C30.471,32.937 30.991,33.374 31.306,33.658 C32.442,34.662 33.426,35.627 34.218,36.517 C35.023,37.422 35.791,38.453 36.498,39.583 C37.231,40.751 37.787,42.029 38.151,43.381 C38.514,44.722 38.699,46.188 38.699,47.734 C38.699,50.756 37.600,53.270 35.431,55.207 C33.295,57.113 30.670,58.081 27.632,58.081 C25.677,58.081 23.908,57.711 22.375,56.983 C20.828,56.251 19.559,55.236 18.604,53.966 C17.679,52.736 16.958,51.358 16.461,49.871 C15.971,48.399 15.684,46.797 15.605,45.113 L15.567,44.293 L16.373,44.138 L24.437,42.587 L25.565,42.370 L25.565,43.519 C25.565,44.309 25.581,45.006 25.607,45.593 C25.636,46.167 25.709,46.803 25.825,47.475 C25.934,48.111 26.077,48.628 26.254,49.009 C26.405,49.339 26.613,49.606 26.885,49.829 C27.102,50.004 27.347,50.086 27.654,50.086 C28.182,50.086 29.064,50.086 29.064,48.018 C29.064,45.563 27.607,43.040 24.733,40.516 L22.276,38.428 C21.496,37.779 20.849,37.216 20.363,36.760 C19.869,36.296 19.289,35.675 18.638,34.912 C17.961,34.118 17.420,33.333 17.032,32.580 C17.000,32.519 16.971,32.449 16.942,32.387 L16.791,32.599 L5.337,27.163 C5.337,27.163 4.848,26.749 5.487,26.711 C6.126,26.674 10.320,27.858 11.882,27.802 C12.748,27.728 14.252,27.276 13.406,25.602 C12.729,24.510 11.639,23.382 9.174,21.747 C8.931,21.614 8.741,21.050 9.475,21.295 C10.209,21.539 14.140,23.739 15.719,23.138 C15.820,23.084 15.973,22.983 16.136,22.835 C16.339,22.148 16.601,21.498 16.928,20.890 C16.900,20.273 16.678,19.517 16.115,18.604 C14.290,15.651 12.748,13.432 11.242,11.363 C11.177,11.140 11.206,10.977 11.335,10.991 C11.403,10.978 11.494,10.987 11.601,11.019 C13.671,12.523 15.891,14.065 18.843,15.890 C19.799,16.480 20.582,16.695 21.214,16.703 C21.798,16.394 22.415,16.130 23.068,15.917 C23.219,15.752 23.324,15.597 23.377,15.494 C23.978,13.915 21.777,9.984 21.533,9.250 C21.288,8.516 21.853,8.705 21.984,8.949 C23.622,11.413 24.750,12.504 25.841,13.180 C27.513,14.028 27.967,12.523 28.041,11.657 C28.097,10.096 26.913,5.903 26.952,5.263 C26.988,4.622 27.400,5.112 27.400,5.112 L32.796,16.480 C33.751,16.993 34.638,17.661 35.453,18.488 C37.576,20.645 38.655,23.280 38.655,26.322 L38.655,26.357 L38.650,26.393 L38.634,26.634 ZM24.749,3.462 C24.146,2.860 24.146,1.883 24.749,1.281 C25.350,0.678 26.328,0.678 26.931,1.280 C27.534,1.883 27.532,2.860 26.931,3.462 C26.328,4.065 25.351,4.065 24.749,3.462 ZM19.218,8.015 C18.616,7.411 18.616,6.435 19.219,5.833 C19.820,5.230 20.797,5.230 21.399,5.833 C22.003,6.435 22.003,7.412 21.399,8.015 C20.799,8.618 19.820,8.618 19.218,8.015 ZM8.102,10.253 C7.499,9.650 7.499,8.673 8.102,8.070 C8.705,7.469 9.682,7.469 10.284,8.070 C10.887,8.673 10.886,9.650 10.284,10.253 C9.682,10.855 8.706,10.855 8.102,10.253 ZM8.214,20.862 C7.612,21.463 6.636,21.463 6.033,20.862 C5.431,20.259 5.431,19.282 6.032,18.680 C6.636,18.077 7.612,18.077 8.214,18.680 C8.818,19.282 8.818,20.259 8.214,20.862 ZM1.350,26.147 C0.746,25.544 0.746,24.568 1.350,23.965 C1.951,23.363 2.928,23.363 3.531,23.965 C4.134,24.568 4.134,25.544 3.531,26.147 C2.928,26.749 1.951,26.750 1.350,26.147 Z"/>
+                </svg>
+                <div>
+                    <p>MAK</p>
+                    <p>THEME</p>
+                </div>
+            </div>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+            </div>
+            <ul class="site-nav">
+                <li><a class="nav-link" href="#home">home</a></li>
+                <li><a class="nav-link" href="#services">services</a></li>
+                <li><a class="nav-link" href="#work">work</a></li>
+                <li><a class="nav-link" href="#about">about</a></li>
+                <li><a class="nav-link" href="#clients">clients</a></li>
+                <li><a class="nav-link" href="#contacts">contacts</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main id="site-content">
+    <div class="image-container" id="home">
+        <p>We are a team of professionals, that likes what it does</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="34.375" height="80.375" viewBox="0 0 34.375 80.375">
+            <path id="mouse-scroll" d="M32.927,37.933c0,6.972-5.652,12.625-12.625,12.625h-6.333C6.997,50.558,1.344,44.905,1.344,37.933V13.917  c0-6.972,5.652-12.625,12.625-12.625l6.333,0c6.973,0,12.625,5.653,12.625,12.625V37.933zM19.198,15.125c0,1.104-0.895,2-2,2h-0.125c-1.104,0-2-0.896-2-2V9.166c0-1.104,0.896-2,2-2h0.125c1.105,0,2,0.896,2,2V15.125zM17.136 7.166 L17.166 1.437zM17.136 17.125 L17.136 23.208z"/>
+            <polyline id="arrow1" points="26.948,58.5 17.136,68.313   7.323,58.5 "/>
+            <polyline id="arrow2" points="26.948,65.25 17.136,75.063   7.323,65.25 "/>
+        </svg>
+    </div>
+    <section id="services">
+        <div class="wrapper">
+            <p>OUR SERVICES</p>
+            <h1>WHAT WE LOVE DO</h1>
+            <div class="yellow-line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci asperiores, blanditiis commodi distinctio ducimus eius excepturi facere, inventore, ipsa ipsam nesciunt odit quos sed sint ullam voluptate! Dolor ipsa modi qui? Ab cupiditate molestias pariatur quam reprehenderit suscipit, voluptatem. Adipisci aliquam aperiam deserunt dignissimos dolore modi officia placeat quia quidem ratione. Accusamus adipisci aperiam cum dolorem dolores ducimus error est ex fugit hic id ipsa ipsam iste laudantium libero neque omnis porro, possimus provident qui quidem sequi sit ullam unde vel veniam voluptate voluptatibus. Architecto cum deleniti eligendi eos, illo omnis porro praesentium quaerat recusandae voluptatem. Nostrum, recusandae, vel?</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon bounce-left">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="40px" height="36px">
+                            <defs>
+                                <filter id="Filter_0">
+                                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                </filter>
+                            </defs>
+                            <g filter="url(#Filter_0)">
+                                <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                      d="M6.034,0.037 L4.978,6.000 L31.440,6.000 L30.374,11.005 L3.891,11.005 L2.623,16.926 L29.366,16.970 L27.597,24.923 L16.931,28.457 L7.686,24.923 L8.145,21.969 L1.511,21.969 L0.272,29.512 L15.560,35.362 L33.186,29.512 L39.133,0.037 L6.034,0.037 Z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <h3>WEB DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quae?</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon bounce-left">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="39px" height="40px">
+                            <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                  d="M36.328,11.772 L27.928,3.372 L30.328,0.971 L38.728,9.372 L36.328,11.772 ZM33.928,14.172 L32.728,27.371 C21.930,27.371 6.329,39.372 6.329,39.372 L4.336,37.380 L14.600,27.116 C15.011,27.281 15.459,27.371 15.929,27.371 C17.918,27.371 19.530,25.759 19.530,23.771 C19.530,21.782 17.918,20.172 15.929,20.172 C13.941,20.172 12.329,21.782 12.329,23.771 C12.329,24.241 12.420,24.689 12.583,25.101 L2.322,35.364 L0.329,33.372 C0.329,33.372 12.329,17.772 12.329,6.972 L25.530,5.772 L33.928,14.172 Z"/>
+                        </svg>
+                    </div>
+                    <h3>GRAPHIC DESIGN</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quae?</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon bounce-left">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="39px" height="32px">
+                            <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                  d="M11.607,17.941 C11.607,22.228 15.148,25.704 19.514,25.704 C23.880,25.704 27.421,22.228 27.421,17.941 C27.421,13.655 23.880,10.180 19.514,10.180 C15.148,10.180 11.607,13.655 11.607,17.941 M36.544,4.806 L28.029,4.806 C27.421,2.417 26.813,0.029 24.380,0.029 L14.649,0.029 C12.216,0.029 11.607,2.417 11.000,4.806 L2.484,4.806 C1.147,4.806 0.052,5.881 0.052,7.194 L0.052,28.689 C0.052,30.001 1.147,31.077 2.484,31.077 L36.544,31.077 C37.881,31.077 38.977,30.001 38.977,28.689 L38.977,7.194 C38.977,5.881 37.881,4.806 36.544,4.806 M19.514,28.539 C13.552,28.539 8.719,23.796 8.719,17.941 C8.719,12.087 13.552,7.343 19.514,7.343 C25.477,7.343 30.310,12.087 30.310,17.941 C30.310,23.796 25.477,28.539 19.514,28.539 M36.982,12.002 L31.991,12.033 L31.991,9.957 L36.982,9.989 L36.982,12.002 Z"/>
+                        </svg>
+                    </div>
+                    <h3>PHOTOGRAPHY</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quae?</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="icon bounce-left">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="43px" height="41px">
+                            <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                  d="M42.043,24.751 L42.043,17.392 L35.802,16.280 C35.566,15.571 35.278,14.885 34.940,14.227 L38.378,9.495 L32.975,4.180 L28.174,7.555 C27.503,7.221 26.801,6.934 26.076,6.700 L25.107,0.974 L17.469,0.974 L16.499,6.699 C15.774,6.933 15.073,7.220 14.401,7.554 L9.599,4.180 L4.198,9.493 L7.634,14.225 C7.296,14.884 7.007,15.569 6.772,16.280 L0.939,17.236 L0.939,24.751 L6.787,25.710 C7.022,26.411 7.311,27.092 7.646,27.743 L4.198,32.492 L9.599,37.807 L14.435,34.410 C15.094,34.735 15.781,35.016 16.492,35.248 L17.469,41.013 L25.107,41.013 L26.084,35.246 C26.795,35.015 27.482,34.735 28.141,34.408 L32.977,37.805 L38.378,32.492 L34.930,27.743 C35.266,27.091 35.554,26.411 35.789,25.707 L42.043,24.751 ZM21.288,25.998 C18.478,25.998 16.201,23.758 16.201,20.993 C16.201,18.230 18.478,15.989 21.288,15.989 C24.098,15.989 26.375,18.230 26.375,20.993 C26.375,23.758 24.098,25.998 21.288,25.998 "/>
+                        </svg>
+                    </div>
+                    <h3>DEVELOPING</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, quae?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <div class="wrapper">
+            <h1>HOW WE DO IT</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda commodi fugiat necessitatibus nihil quos rerum sit sunt! Neque, unde.</p>
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <svg class="bounce-left" xmlns="http://www.w3.org/2000/svg">
+
+                        <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                              d="M40.055,35.299 L26.971,12.172 L27.002,2.805 L27.732,2.805 C28.497,2.805 29.120,2.173 29.120,1.401 C29.120,0.629 28.497,-0.003 27.732,-0.003 L13.863,-0.003 C13.100,-0.003 12.476,0.629 12.476,1.401 C12.476,2.173 13.100,2.805 13.863,2.805 L14.968,2.805 L14.999,12.172 L1.542,35.299 C-1.598,40.597 0.826,44.932 6.928,44.932 L34.667,44.932 C40.770,44.932 43.194,40.597 40.055,35.299 M9.085,27.956 L17.992,12.945 L17.992,2.993 L24.009,2.993 L24.009,12.945 L32.450,27.956 L9.085,27.956 Z"/>
+                    </svg>
+                    <h3>ANALYSE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <svg class="bounce-left" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                              d="M39.086,-0.007 L41.976,24.537 L38.732,24.919 L36.149,3.000 L8.782,3.000 L6.199,24.919 L2.955,24.537 L5.846,-0.007 L39.086,-0.007 ZM11.996,4.952 L32.966,4.952 L33.008,7.989 L11.996,8.073 L11.996,4.952 ZM12.021,10.987 L33.036,10.987 L33.005,14.016 L11.989,13.984 L12.021,10.987 ZM12.021,16.983 L33.005,16.983 L33.005,20.013 L11.989,20.044 L12.021,16.983 ZM11.958,21.980 L33.005,21.980 L33.036,25.041 L11.989,25.010 L11.958,21.980 ZM42.857,28.039 L1.825,27.976 C1.069,27.976 0.801,28.812 1.041,29.531 L5.518,42.662 C5.758,43.380 6.573,43.967 7.329,43.967 L37.602,43.967 C38.359,43.967 39.173,43.380 39.414,42.662 L43.954,29.404 C44.194,28.687 43.707,27.976 42.950,27.976 M28.001,32.973 L16.961,32.973 L16.992,29.975 L27.970,29.975 L28.001,32.973 Z"/>
+                    </svg>
+                    <h3>PREPARING</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <svg class="bounce-left" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                              d="M44.356,33.537 L31.371,20.554 C30.570,19.750 29.254,19.750 28.449,20.554 L27.476,21.528 L19.553,13.605 L32.925,0.030 L19.187,0.030 L12.664,6.716 L12.089,5.955 L9.012,5.986 L9.043,8.939 L9.741,9.637 L0.869,18.511 L7.758,25.401 L16.630,16.528 L24.553,24.451 L23.579,25.424 C22.774,26.226 22.774,27.543 23.579,28.347 L36.561,41.330 C37.365,42.133 38.681,42.133 39.483,41.330 L44.353,36.460 C45.161,35.657 45.161,34.342 44.356,33.537 "/>
+                    </svg>
+                    <h3>WORKING</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <svg class="bounce-left" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                              d="M40.143,26.872 C37.831,22.781 39.222,17.539 43.249,15.158 L38.917,7.498 C37.681,8.239 36.240,8.664 34.705,8.664 C30.075,8.664 26.322,4.806 26.322,0.050 L17.659,0.050 C17.669,1.517 17.312,3.009 16.541,4.369 C14.228,8.459 9.086,9.849 5.052,7.478 L0.719,15.140 C1.965,15.865 3.046,16.923 3.812,18.279 C6.122,22.364 4.738,27.594 0.725,29.982 L5.058,37.643 C6.292,36.909 7.725,36.489 9.251,36.489 C13.868,36.489 17.611,40.321 17.633,45.057 L26.298,45.057 C26.294,43.602 26.654,42.131 27.417,40.782 C29.725,36.700 34.854,35.307 38.884,37.664 L43.217,30.000 C41.980,29.279 40.907,28.223 40.143,26.872 M21.983,31.665 C17.055,31.665 13.059,27.586 13.059,22.553 C13.059,17.521 17.055,13.442 21.983,13.442 C26.915,13.442 30.910,17.521 30.910,22.553 C30.910,27.586 26.915,31.665 21.983,31.665 "/>
+                    </svg>
+                    <h3>FINALISE</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <svg class="bounce-left" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                              d="M14.751,5.501 C14.751,8.522 17.201,10.972 20.222,10.972 C23.243,10.972 25.692,8.522 25.692,5.501 C25.692,2.481 23.243,0.032 20.222,0.032 C17.201,0.032 14.751,2.481 14.751,5.501 M26.355,10.310 C26.355,13.330 28.803,15.780 31.826,15.780 C34.847,15.780 37.296,13.330 37.296,10.310 C37.296,7.289 34.847,4.840 31.826,4.840 C28.803,4.840 26.355,7.289 26.355,10.310 M33.898,21.912 C33.898,23.422 35.123,24.648 36.632,24.648 C38.141,24.648 39.367,23.422 39.367,21.912 C39.367,20.403 38.141,19.177 36.632,19.177 C35.123,19.177 33.898,20.403 33.898,21.912 M29.091,33.516 C29.091,35.027 30.315,36.250 31.826,36.250 C33.336,36.250 34.561,35.027 34.561,33.516 C34.561,32.007 33.336,30.781 31.826,30.781 C30.315,30.781 29.091,32.007 29.091,33.516 M17.486,38.323 C17.486,39.832 18.712,41.059 20.222,41.059 C21.730,41.059 22.956,39.832 22.956,38.323 C22.956,36.814 21.730,35.589 20.222,35.589 C18.712,35.589 17.486,36.814 17.486,38.323 M5.882,33.516 C5.882,35.027 7.107,36.250 8.617,36.250 C10.128,36.250 11.353,35.027 11.353,33.516 C11.353,32.007 10.128,30.781 8.617,30.781 C7.107,30.781 5.882,32.007 5.882,33.516 M4.514,10.310 C4.514,12.574 6.352,14.412 8.617,14.412 C10.884,14.412 12.720,12.574 12.720,10.310 C12.720,8.042 10.884,6.207 8.617,6.207 C6.352,6.207 4.514,8.042 4.514,10.310 M0.733,21.912 C0.733,23.612 2.111,24.989 3.811,24.989 C5.509,24.989 6.887,23.612 6.887,21.912 C6.887,20.213 5.509,18.835 3.811,18.835 C2.111,18.835 0.733,20.213 0.733,21.912 "/>
+                    </svg>
+                    <h3>TESTING</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <svg class="bounce-left" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                              d="M45.007,19.035 L39.045,7.989 L30.995,8.022 L30.995,2.755 C30.995,1.235 29.407,-0.010 27.872,-0.010 L2.731,-0.010 C1.195,-0.010 0.031,1.298 0.031,2.818 L-0.000,24.879 L2.606,26.988 L6.492,27.019 C6.017,27.832 5.525,29.402 5.525,30.410 C5.525,33.464 8.026,35.941 11.111,35.941 C14.196,35.941 16.698,33.464 16.698,30.410 C16.698,29.402 16.580,27.802 16.105,26.988 L31.570,27.019 C31.094,27.833 30.667,29.402 30.667,30.410 C30.667,33.464 33.168,35.941 36.252,35.941 C39.337,35.941 41.840,33.464 41.840,30.410 C41.840,29.402 41.502,27.833 41.028,27.019 L45.007,26.988 L45.007,19.035 ZM31.072,17.988 L31.040,11.059 L36.050,10.997 L39.947,17.988 L31.072,17.988 Z"/>
+                    </svg>
+                    <h3>DELIVER</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="wrapper">
+            <p>OUR WORKS</p>
+            <h1>WHAT WE DO SO FAR</h1>
+            <div class="yellow-line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at debitis dolore, ea eaque et facilis hic, in inventore ipsam, maxime nesciunt numquam placeat quas qui quisquam sint suscipit unde vero vitae! Aliquam autem consequuntur labore natus optio provident quam, rerum vitae voluptas voluptatem. Adipisci aspernatur consequuntur est inventore natus placeat quia quo repellat sit temporibus! Architecto error pariatur sed.</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a class="work-example" href="#">
+                        <p>Go to the site</p>
+                        <div class="top"></div>
+                        <img src="./img/portfolio.jpg" />
+                        <div class="bottom"></div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a class="work-example" href="#">
+                        <p>Go to the site</p>
+                        <div class="top"></div>
+                        <img src="./img/portfolio.jpg" />
+                        <div class="bottom"></div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a class="work-example" href="#">
+                        <p>Go to the site</p>
+                        <div class="top"></div>
+                        <img src="./img/portfolio.jpg" />
+                        <div class="bottom"></div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a class="work-example" href="#">
+                        <p>Go to the site</p>
+                        <div class="top"></div>
+                        <img src="./img/portfolio.jpg" />
+                        <div class="bottom"></div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a class="work-example" href="#">
+                        <p>Go to the site</p>
+                        <div class="top"></div>
+                        <img src="./img/portfolio.jpg" />
+                        <div class="bottom"></div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a class="work-example" href="#">
+                        <p>Go to the site</p>
+                        <div class="top"></div>
+                        <img src="./img/portfolio.jpg" />
+                        <div class="bottom"></div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a class="work-example" href="#">
+                        <p>Go to the site</p>
+                        <div class="top"></div>
+                        <img src="./img/portfolio.jpg" />
+                        <div class="bottom"></div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a class="work-example" href="#">
+                        <p>Go to the site</p>
+                        <div class="top"></div>
+                        <img src="./img/portfolio.jpg" />
+                        <div class="bottom"></div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <a class="work-example" href="#">
+                        <p>Go to the site</p>
+                        <div class="top"></div>
+                        <img src="./img/portfolio.jpg" />
+                        <div class="bottom"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="statistics">
+        <div class="wrapper">
+            <h1>WE ARE PROUD OF THESE NUMBERS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At exercitationem incidunt iure obcaecati placeat, quisquam.</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div>
+                        <p class="number">1600</p>
+                        <p class="value">HAPPY CLIENTS</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div>
+                        <p class="number">3200</p>
+                        <p class="value">COMPLETED PROJECTS</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div>
+                        <p class="number">40</p>
+                        <p class="value">AWARDS</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div>
+                        <p class="number">20 000</p>
+                        <p class="value">COFFEE DRINKS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="wrapper">
+            <p>ABOUT US</p>
+            <h1>WHO WE ARE</h1>
+            <div class="yellow-line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at debitis dolore, ea eaque et facilis hic, in inventore ipsam, maxime nesciunt numquam placeat quas qui quisquam sint suscipit unde vero vitae! Aliquam autem consequuntur labore natus optio provident quam, rerum vitae voluptas voluptatem. Adipisci aspernatur consequuntur est inventore natus placeat quia quo repellat sit temporibus! Architecto error pariatur sed.</p>
+            <div class="row">
+                <div class="info col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="icon bounce-left">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="30px" height="34px">
+                            <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                  d="M14.912,4.615 C7.001,4.615 0.589,11.027 0.589,18.938 C0.589,26.848 7.001,33.260 14.912,33.260 C22.822,33.260 29.234,26.848 29.234,18.938 C29.234,11.027 22.822,4.615 14.912,4.615 M14.912,30.446 C8.556,30.446 3.402,25.293 3.402,18.938 C3.402,12.581 8.556,7.428 14.912,7.428 C21.268,7.428 26.421,12.581 26.421,18.938 C26.421,25.293 21.268,30.446 14.912,30.446 M28.427,9.704 C28.940,8.807 29.234,7.768 29.234,6.661 C29.234,3.270 26.487,0.523 23.096,0.523 C21.120,0.523 19.361,1.457 18.238,2.908 C22.454,3.778 26.077,6.272 28.427,9.704 M11.585,2.908 C10.462,1.457 8.703,0.523 6.727,0.523 C3.336,0.523 0.589,3.270 0.589,6.661 C0.589,7.768 0.883,8.807 1.394,9.704 C3.744,6.272 7.367,3.778 11.585,2.908 M12.866,10.978 L15.047,10.978 L15.091,20.983 L12.866,20.983 L12.866,10.978 ZM14.867,18.938 L21.050,18.938 L21.050,20.983 L14.912,20.983 L14.867,18.938 Z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>ON TIME PROJECTS</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores eligendi explicabo incidunt perferendis quos, repellat voluptates? At nisi quam quo quod sequi. Aliquid, nihil.</p>
+                    </div>
+                </div>
+                <div class="info col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="icon bounce-left">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="33px" height="33px">
+                            <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                  d="M16.871,0.470 C7.980,0.470 0.776,7.675 0.776,16.565 C0.776,25.454 7.980,32.660 16.871,32.660 C25.759,32.660 32.966,25.454 32.966,16.565 C32.966,7.675 25.759,0.470 16.871,0.470 M10.835,16.565 C10.835,13.230 13.536,10.529 16.871,10.529 C20.205,10.529 22.906,13.230 22.906,16.565 C22.906,19.899 20.205,22.600 16.871,22.600 C13.536,22.600 10.835,19.899 10.835,16.565 M29.885,21.956 L29.885,21.956 L24.307,19.646 C24.700,18.697 24.918,17.656 24.918,16.565 C24.918,15.473 24.700,14.433 24.305,13.484 L28.144,11.894 L29.883,11.174 C30.573,12.835 30.954,14.655 30.954,16.565 C30.954,18.474 30.573,20.295 29.885,21.956 M22.262,3.550 L22.262,3.550 L19.951,9.128 C19.002,8.734 17.961,8.517 16.871,8.517 C15.778,8.517 14.739,8.734 13.790,9.128 L12.707,6.513 L11.479,3.550 C13.140,2.863 14.961,2.482 16.871,2.482 C18.780,2.482 20.600,2.863 22.262,3.550 M3.856,11.174 L6.819,12.402 L9.434,13.484 C9.039,14.433 8.823,15.473 8.823,16.565 C8.823,17.656 9.039,18.697 9.434,19.646 L3.858,21.956 C3.169,20.295 2.788,18.474 2.788,16.565 C2.788,14.655 3.169,12.835 3.856,11.174 M11.479,29.579 L12.201,27.840 L13.790,24.001 C14.739,24.395 15.778,24.612 16.871,24.612 C17.961,24.612 19.002,24.395 19.951,24.001 L22.262,29.577 C20.600,30.267 18.780,30.648 16.871,30.648 C14.961,30.648 13.140,30.267 11.479,29.579 "/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>ON TIME PROJECTS</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores eligendi explicabo incidunt perferendis quos, repellat voluptates? At nisi quam quo quod sequi. Aliquid, nihil.</p>
+                    </div>
+                </div>
+                <div class="info col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="icon bounce-left">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="29px" height="31px">
+                            <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                  d="M26.478,16.943 C28.581,16.943 27.400,22.474 25.556,22.474 C26.478,22.474 25.556,27.081 23.712,27.081 C23.712,28.926 21.905,30.028 20.062,30.028 C12.274,30.028 14.906,27.863 7.048,27.046 L6.976,12.333 C13.916,10.253 20.947,5.033 20.947,0.350 C22.474,0.350 26.405,1.798 20.875,11.015 L26.441,11.015 C29.207,11.015 28.322,16.943 26.478,16.943 M5.025,12.333 L5.025,27.010 L7.121,27.010 L7.121,28.005 L3.433,28.005 C2.420,28.005 0.976,26.759 0.976,25.239 L0.940,14.213 C0.940,12.691 2.347,10.979 3.361,10.979 L7.121,10.979 L7.121,12.333 L5.025,12.333 Z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>ON TIME PROJECTS</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores eligendi explicabo incidunt perferendis quos, repellat voluptates? At nisi quam quo quod sequi. Aliquid, nihil.</p>
+                    </div>
+                </div>
+                <div class="info col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="icon bounce-left">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             width="34px" height="30px">
+                            <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                                  d="M14.428,0.626 L14.428,0.626 C21.968,0.626 28.079,5.574 28.079,11.672 C28.079,17.775 21.968,22.720 14.428,22.720 C13.704,22.720 12.994,22.674 12.300,22.586 C9.369,25.507 5.981,26.029 2.598,26.107 L2.598,25.393 C4.426,24.501 5.898,22.877 5.898,21.020 C5.898,20.762 5.878,20.506 5.840,20.258 C2.752,18.233 0.779,15.139 0.779,11.672 C0.779,5.574 6.889,0.626 14.428,0.626 M29.103,25.387 C29.103,26.979 30.134,28.370 31.718,29.134 L31.718,29.748 C28.787,29.682 26.095,29.232 23.554,26.729 C22.952,26.805 22.336,26.845 21.708,26.845 C18.993,26.845 16.491,26.111 14.498,24.881 C18.611,24.867 22.496,23.548 25.439,21.164 C26.925,19.962 28.095,18.553 28.921,16.975 C29.796,15.301 30.240,13.518 30.240,11.672 C30.240,11.376 30.228,11.080 30.204,10.786 C32.268,12.492 33.540,14.815 33.540,17.375 C33.540,20.346 31.828,22.997 29.153,24.733 C29.119,24.949 29.103,25.165 29.103,25.387 "/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3>ON TIME PROJECTS</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolores eligendi explicabo incidunt perferendis quos, repellat voluptates? At nisi quam quo quod sequi. Aliquid, nihil.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="staff">
+        <div class="wrapper">
+            <h1>THE TEAM</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dignissimos excepturi odio, quae quia similique.</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="avatar"></div>
+                    <p class="name">JOHN DOE</p>
+                    <p class="position">CREATIVE DIRECTOR</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="8px" height="16px">
+                                <path fill-rule="evenodd"  fill="rgb(18, 42, 47)"
+                                      d="M4.962,15.037 L2.012,15.003 L2.012,8.062 L0.004,8.031 L0.004,4.988 L2.012,4.987 L2.010,3.199 C2.010,1.147 2.690,-0.004 5.105,-0.004 L6.988,-0.004 L6.956,3.038 L5.889,2.976 C4.948,2.976 4.995,3.137 4.995,3.794 L5.024,4.987 L7.033,4.987 L6.984,8.062 L4.993,8.031 L4.962,15.037 Z"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="18px" height="16px">
+                                <path fill-rule="evenodd"  fill="rgb(18, 42, 47)"
+                                      d="M17.943,2.222 C17.287,2.515 16.576,2.716 15.837,2.802 C16.594,2.349 17.173,1.630 17.449,0.775 C16.741,1.194 15.955,1.498 15.121,1.664 C14.451,0.951 13.497,0.504 12.443,0.504 C10.417,0.504 8.777,2.145 8.777,4.173 C8.777,4.462 8.809,4.740 8.869,5.008 C5.823,4.857 3.121,3.395 1.315,1.178 C0.995,1.717 0.814,2.349 0.814,3.020 C0.814,4.292 1.463,5.415 2.448,6.074 C1.845,6.052 1.281,5.890 0.787,5.616 C0.786,5.628 0.786,5.647 0.786,5.658 C0.786,7.440 2.050,8.917 3.728,9.257 C3.420,9.343 3.097,9.383 2.761,9.383 C2.526,9.383 2.295,9.363 2.070,9.318 C2.538,10.777 3.893,11.837 5.497,11.866 C4.243,12.851 2.661,13.435 0.944,13.435 C0.645,13.435 0.353,13.420 0.067,13.387 C1.692,14.425 3.618,15.034 5.687,15.034 C12.435,15.034 16.123,9.445 16.123,4.598 C16.123,4.437 16.120,4.281 16.112,4.121 C16.829,3.607 17.451,2.961 17.943,2.222 "/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="avatar"></div>
+                    <p class="name">JOHN DOE</p>
+                    <p class="position">ART DIRECTOR</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="8px" height="16px">
+                                <path fill-rule="evenodd"  fill="rgb(18, 42, 47)"
+                                      d="M4.962,15.037 L2.012,15.003 L2.012,8.062 L0.004,8.031 L0.004,4.988 L2.012,4.987 L2.010,3.199 C2.010,1.147 2.690,-0.004 5.105,-0.004 L6.988,-0.004 L6.956,3.038 L5.889,2.976 C4.948,2.976 4.995,3.137 4.995,3.794 L5.024,4.987 L7.033,4.987 L6.984,8.062 L4.993,8.031 L4.962,15.037 Z"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="18px" height="16px">
+                                <path fill-rule="evenodd"  fill="rgb(18, 42, 47)"
+                                      d="M17.943,2.222 C17.287,2.515 16.576,2.716 15.837,2.802 C16.594,2.349 17.173,1.630 17.449,0.775 C16.741,1.194 15.955,1.498 15.121,1.664 C14.451,0.951 13.497,0.504 12.443,0.504 C10.417,0.504 8.777,2.145 8.777,4.173 C8.777,4.462 8.809,4.740 8.869,5.008 C5.823,4.857 3.121,3.395 1.315,1.178 C0.995,1.717 0.814,2.349 0.814,3.020 C0.814,4.292 1.463,5.415 2.448,6.074 C1.845,6.052 1.281,5.890 0.787,5.616 C0.786,5.628 0.786,5.647 0.786,5.658 C0.786,7.440 2.050,8.917 3.728,9.257 C3.420,9.343 3.097,9.383 2.761,9.383 C2.526,9.383 2.295,9.363 2.070,9.318 C2.538,10.777 3.893,11.837 5.497,11.866 C4.243,12.851 2.661,13.435 0.944,13.435 C0.645,13.435 0.353,13.420 0.067,13.387 C1.692,14.425 3.618,15.034 5.687,15.034 C12.435,15.034 16.123,9.445 16.123,4.598 C16.123,4.437 16.120,4.281 16.112,4.121 C16.829,3.607 17.451,2.961 17.943,2.222 "/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="avatar"></div>
+                    <p class="name">JOHN DOE</p>
+                    <p class="position">WEB DEVELOPER</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="8px" height="16px">
+                                <path fill-rule="evenodd"  fill="rgb(18, 42, 47)"
+                                      d="M4.962,15.037 L2.012,15.003 L2.012,8.062 L0.004,8.031 L0.004,4.988 L2.012,4.987 L2.010,3.199 C2.010,1.147 2.690,-0.004 5.105,-0.004 L6.988,-0.004 L6.956,3.038 L5.889,2.976 C4.948,2.976 4.995,3.137 4.995,3.794 L5.024,4.987 L7.033,4.987 L6.984,8.062 L4.993,8.031 L4.962,15.037 Z"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="18px" height="16px">
+                                <path fill-rule="evenodd"  fill="rgb(18, 42, 47)"
+                                      d="M17.943,2.222 C17.287,2.515 16.576,2.716 15.837,2.802 C16.594,2.349 17.173,1.630 17.449,0.775 C16.741,1.194 15.955,1.498 15.121,1.664 C14.451,0.951 13.497,0.504 12.443,0.504 C10.417,0.504 8.777,2.145 8.777,4.173 C8.777,4.462 8.809,4.740 8.869,5.008 C5.823,4.857 3.121,3.395 1.315,1.178 C0.995,1.717 0.814,2.349 0.814,3.020 C0.814,4.292 1.463,5.415 2.448,6.074 C1.845,6.052 1.281,5.890 0.787,5.616 C0.786,5.628 0.786,5.647 0.786,5.658 C0.786,7.440 2.050,8.917 3.728,9.257 C3.420,9.343 3.097,9.383 2.761,9.383 C2.526,9.383 2.295,9.363 2.070,9.318 C2.538,10.777 3.893,11.837 5.497,11.866 C4.243,12.851 2.661,13.435 0.944,13.435 C0.645,13.435 0.353,13.420 0.067,13.387 C1.692,14.425 3.618,15.034 5.687,15.034 C12.435,15.034 16.123,9.445 16.123,4.598 C16.123,4.437 16.120,4.281 16.112,4.121 C16.829,3.607 17.451,2.961 17.943,2.222 "/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="avatar"></div>
+                    <p class="name">JOHN DOE</p>
+                    <p class="position">PHOTOGRAPHER</p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="8px" height="16px">
+                                <path fill-rule="evenodd"  fill="rgb(18, 42, 47)"
+                                      d="M4.962,15.037 L2.012,15.003 L2.012,8.062 L0.004,8.031 L0.004,4.988 L2.012,4.987 L2.010,3.199 C2.010,1.147 2.690,-0.004 5.105,-0.004 L6.988,-0.004 L6.956,3.038 L5.889,2.976 C4.948,2.976 4.995,3.137 4.995,3.794 L5.024,4.987 L7.033,4.987 L6.984,8.062 L4.993,8.031 L4.962,15.037 Z"/>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 width="18px" height="16px">
+                                <path fill-rule="evenodd"  fill="rgb(18, 42, 47)"
+                                      d="M17.943,2.222 C17.287,2.515 16.576,2.716 15.837,2.802 C16.594,2.349 17.173,1.630 17.449,0.775 C16.741,1.194 15.955,1.498 15.121,1.664 C14.451,0.951 13.497,0.504 12.443,0.504 C10.417,0.504 8.777,2.145 8.777,4.173 C8.777,4.462 8.809,4.740 8.869,5.008 C5.823,4.857 3.121,3.395 1.315,1.178 C0.995,1.717 0.814,2.349 0.814,3.020 C0.814,4.292 1.463,5.415 2.448,6.074 C1.845,6.052 1.281,5.890 0.787,5.616 C0.786,5.628 0.786,5.647 0.786,5.658 C0.786,7.440 2.050,8.917 3.728,9.257 C3.420,9.343 3.097,9.383 2.761,9.383 C2.526,9.383 2.295,9.363 2.070,9.318 C2.538,10.777 3.893,11.837 5.497,11.866 C4.243,12.851 2.661,13.435 0.944,13.435 C0.645,13.435 0.353,13.420 0.067,13.387 C1.692,14.425 3.618,15.034 5.687,15.034 C12.435,15.034 16.123,9.445 16.123,4.598 C16.123,4.437 16.120,4.281 16.112,4.121 C16.829,3.607 17.451,2.961 17.943,2.222 "/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="cite">
+            <div class="wrapper">
+                <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <h2>JOHN DOE</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam, aliquid consequatur eius error est eveniet expedita fugit illo in maiores mollitia nam nisi nobis non omnis quo sapiente temporibus voluptas voluptates voluptatibus. A aspernatur dolor dolorum eligendi facere, itaque iure iusto labore minima, modi officia possimus quasi quia quibusdam repellendus sint sit voluptatum. Harum impedit magni neque numquam rem sint. Aliquid amet aut blanditiis dignissimos dolor esse ex fuga fugiat impedit incidunt iure iusto labore minus nam necessitatibus neque nihil nisi odit officia omnis, placeat porro possimus quasi quisquam quos rem rerum sed soluta tenetur veritatis voluptatibus!</p>
+                        </div>
+
+                        <div class="item">
+                            <h2>JOHN DOE</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam, aliquid consequatur eius error est eveniet expedita fugit illo in maiores mollitia nam nisi nobis non omnis quo sapiente temporibus voluptas voluptates voluptatibus. A aspernatur dolor dolorum eligendi facere, itaque iure iusto labore minima, modi officia possimus quasi quia quibusdam repellendus sint sit voluptatum. Harum impedit magni neque numquam rem sint. Aliquid amet aut blanditiis dignissimos dolor esse ex fuga fugiat impedit incidunt iure iusto labore minus nam necessitatibus neque nihil nisi odit officia omnis, placeat porro possimus quasi quisquam quos rem rerum sed soluta tenetur veritatis voluptatibus ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam, aliquid consequatur eius error est eveniet expedita fugit illo in maiores mollitia nam nisi nobis non omnis quo sapiente temporibus voluptas voluptates voluptatibus. A aspernatur dolor dolorum eligendi facere, itaque iure iusto labore minima, modi officia possimus quasi quia quibusdam repellendus sint sit voluptatum. Harum impedit magni neque numquam rem sint. Aliquid amet!</p>
+                        </div>
+
+                        <div class="item">
+                            <h2>JOHN DOE</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab adipisci aliquam, aliquid consequatur eius error est eveniet expedita fugit illo in maiores mollitia nam nisi nobis non omnis quo sapiente temporibus voluptas voluptates voluptatibus. A aspernatur dolor dolorum eligendi facere, itaque iure iusto labore minima, modi officia possimus quasi quia quibusdam repellendus voluptatibus!</p>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="clients">
+        <div class="wrapper">
+            <p>OUR CLIENTS</p>
+            <h1>WHO LOVE TO WORK WITH US</h1>
+            <div class="yellow-line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto aut cupiditate dolorum est exercitationem explicabo id, itaque maiores minus natus nostrum omnis, perferendis possimus qui quos repellat! Blanditiis consectetur dignissimos dolor ea eveniet incidunt ipsa mollitia nemo neque officiis quisquam reiciendis repellat rerum, sed sint suscipit ullam velit voluptatibus?</p>
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="101px" height="52px">
+                        <path fill-rule="evenodd"  fill="rgb(112, 112, 112)"
+                              d="M97.311,7.982 C96.796,7.937 96.321,8.010 95.751,8.010 C94.557,8.010 93.761,8.086 93.642,8.233 C93.442,8.479 92.988,8.765 92.988,10.510 L92.988,11.988 L98.995,11.988 L98.995,18.967 L92.988,18.999 L92.988,29.008 L84.995,29.039 L84.995,18.999 L80.023,18.967 L79.991,11.956 L84.963,11.988 L84.995,10.197 C84.995,6.541 85.126,4.644 86.816,2.805 C88.538,0.945 91.165,-0.002 94.623,-0.002 C95.598,-0.002 96.472,0.028 97.230,0.096 C98.017,0.160 98.732,0.258 99.379,0.394 L99.953,0.640 L99.953,8.001 L98.954,7.957 C98.439,7.899 97.845,8.033 97.311,7.982 ZM77.036,34.036 L78.959,34.005 L79.022,50.927 L77.004,50.958 L77.036,34.036 ZM68.999,1.048 L78.007,1.016 L78.007,28.976 L68.999,28.944 L68.999,1.048 ZM61.570,50.958 L55.988,50.990 L56.020,33.974 L61.758,34.005 C67.346,34.005 69.915,36.993 69.915,42.408 C69.915,47.942 67.159,50.958 61.570,50.958 ZM66.403,37.884 C65.935,37.354 65.307,36.947 64.516,36.666 C63.721,36.380 62.974,35.957 61.767,35.957 L57.975,35.988 L57.975,48.976 L61.517,48.976 C62.715,48.976 63.956,48.644 64.752,48.356 C65.546,48.068 65.928,47.622 66.397,47.073 C66.869,46.528 67.194,45.862 67.388,45.076 C67.576,44.292 67.672,43.401 67.672,42.408 C67.672,41.453 67.576,40.592 67.388,39.828 C67.194,39.063 66.869,38.416 66.403,37.884 ZM39.149,26.522 C42.376,24.660 47.016,24.004 53.338,24.004 L55.040,24.004 C55.027,23.642 55.016,23.012 55.007,22.694 C54.977,22.131 55.056,21.515 54.965,21.169 C54.791,20.401 53.883,20.016 53.362,19.609 C52.823,19.143 51.740,18.632 49.392,18.632 C47.531,18.632 46.142,18.950 45.247,19.574 C44.466,20.121 44.026,20.754 43.991,21.958 L43.986,22.958 L34.956,22.989 L35.101,22.033 C35.400,17.248 38.122,11.014 49.665,11.014 C51.777,11.014 53.731,11.726 55.343,12.092 C57.027,12.471 58.557,13.120 59.887,14.023 C61.252,14.929 62.285,16.220 62.961,17.854 C63.596,19.416 63.963,20.332 63.963,22.971 L63.994,28.983 L37.040,28.983 C37.870,27.852 37.772,27.318 39.149,26.522 ZM24.978,50.958 L22.995,51.052 L22.995,35.988 L18.029,36.019 L17.997,34.005 L30.009,34.005 L30.041,35.957 L25.009,35.988 L24.978,50.958 ZM21.006,24.246 C21.006,23.248 21.090,22.239 20.945,21.548 C20.813,20.985 20.858,20.764 20.598,20.437 C20.360,20.136 20.058,19.918 19.665,19.780 C19.190,19.609 18.570,19.526 17.822,19.526 C16.754,19.526 15.670,19.806 14.598,20.365 C13.589,20.900 12.087,21.823 11.020,23.010 L11.014,28.963 L2.010,28.984 L1.999,0.045 L11.077,0.045 L11.020,8.733 C11.020,10.062 11.063,12.227 11.048,13.503 C11.042,13.781 11.096,14.341 11.096,14.613 C13.493,12.763 16.453,11.007 19.256,11.007 C26.729,11.007 29.963,15.389 29.963,23.446 L29.963,29.014 L21.006,28.983 L21.006,24.246 ZM4.628,34.335 C5.344,34.107 6.141,33.990 7.013,33.990 C7.935,33.990 8.776,34.107 9.534,34.335 C10.290,34.559 10.940,34.884 11.492,35.310 C12.043,35.736 12.478,36.252 12.790,36.864 C13.108,37.476 13.280,38.165 13.301,38.933 L11.188,38.933 C10.972,36.951 9.612,35.960 7.110,35.960 C5.886,35.960 4.949,36.185 4.288,36.642 C3.628,37.093 3.299,37.703 3.299,38.473 C3.299,38.819 3.358,39.120 3.481,39.363 C3.603,39.612 3.808,39.829 4.100,40.013 C4.392,40.201 4.782,40.372 5.264,40.518 C5.750,40.667 6.353,40.821 7.074,40.974 C7.570,41.079 8.072,41.192 8.592,41.310 C9.111,41.423 9.612,41.570 10.102,41.741 C10.594,41.907 11.057,42.115 11.492,42.352 C11.929,42.591 12.313,42.879 12.640,43.220 C12.968,43.560 13.225,43.963 13.418,44.429 C13.608,44.892 13.701,45.437 13.701,46.062 C13.701,46.780 13.550,47.444 13.248,48.044 C12.943,48.647 12.521,49.168 11.982,49.604 C11.436,50.041 10.792,50.383 10.050,50.632 C9.304,50.879 8.490,51.001 7.609,51.001 C6.450,51.001 5.439,50.861 4.571,50.589 C3.708,50.312 2.984,49.929 2.405,49.436 C1.826,48.942 1.389,48.354 1.088,47.668 C0.791,46.983 0.630,46.233 0.602,45.418 L2.692,45.418 C2.747,46.040 2.916,46.579 3.188,47.038 C3.462,47.495 3.818,47.873 4.245,48.174 C4.674,48.471 5.166,48.694 5.722,48.835 C6.274,48.975 6.866,49.045 7.501,49.045 C8.116,49.045 8.674,48.984 9.175,48.852 C9.673,48.723 10.104,48.538 10.462,48.294 C10.818,48.052 11.093,47.759 11.285,47.415 C11.479,47.068 11.577,46.680 11.577,46.240 C11.577,45.792 11.487,45.405 11.313,45.095 C11.132,44.783 10.841,44.512 10.443,44.275 C10.043,44.041 9.512,43.831 8.858,43.645 C8.205,43.459 7.402,43.266 6.454,43.074 C5.534,42.864 4.738,42.625 4.069,42.355 C3.401,42.093 2.855,41.778 2.423,41.416 C1.996,41.055 1.680,40.643 1.471,40.171 C1.263,39.702 1.162,39.163 1.162,38.557 C1.162,37.894 1.304,37.283 1.587,36.724 C1.871,36.165 2.268,35.685 2.782,35.282 C3.297,34.876 3.912,34.559 4.628,34.335 ZM36.999,34.036 L38.955,34.005 L38.955,43.743 C38.955,44.842 39.051,45.738 39.242,46.428 C39.433,47.121 39.707,47.663 40.073,48.052 C40.436,48.440 40.882,48.706 41.413,48.842 C41.944,48.977 42.551,49.045 43.245,49.045 C43.930,49.045 44.540,48.975 45.076,48.835 C45.607,48.694 46.054,48.425 46.410,48.032 C46.766,47.642 47.756,47.099 47.941,46.412 C48.127,45.725 48.036,44.833 48.036,43.743 L48.004,33.974 L50.010,34.005 L50.010,43.780 C50.010,44.912 50.101,46.051 49.907,46.947 C49.711,47.837 48.873,48.470 48.388,49.089 C47.901,49.707 47.240,50.181 46.410,50.508 C45.576,50.837 44.518,51.001 43.245,51.001 C42.224,51.001 41.354,50.898 40.643,50.691 C39.930,50.486 39.336,50.205 38.860,49.853 C38.379,49.502 38.003,49.092 37.729,48.623 C37.456,48.152 37.465,48.245 37.323,47.711 C37.179,47.176 37.062,46.249 37.025,45.678 C36.987,45.107 36.999,44.328 36.999,43.780 L36.999,34.036 ZM86.570,36.316 C87.268,35.577 88.100,35.006 89.061,34.600 C90.024,34.198 91.073,33.990 92.205,33.990 C93.348,33.990 94.399,34.198 95.356,34.605 C96.313,35.016 97.142,35.590 97.837,36.331 C98.536,37.071 99.079,37.962 99.473,39.008 C99.863,40.052 100.063,41.208 100.063,42.481 C100.063,43.743 99.865,44.895 99.478,45.940 C99.091,46.983 98.549,47.882 97.859,48.628 C97.165,49.377 96.338,49.958 95.376,50.374 C94.411,50.793 93.355,51.001 92.205,51.001 C91.058,51.001 89.999,50.793 89.040,50.380 C88.076,49.971 87.247,49.389 86.549,48.645 C85.853,47.902 85.310,47.006 84.922,45.957 C84.536,44.908 84.341,43.750 84.341,42.481 C84.341,41.200 84.536,40.039 84.927,38.994 C85.322,37.950 85.866,37.059 86.570,36.316 ZM87.009,45.283 C87.286,46.108 87.673,46.807 88.170,47.378 C88.669,47.949 89.257,48.383 89.942,48.684 C90.625,48.984 91.379,49.131 92.194,49.131 C93.011,49.131 93.765,48.984 94.450,48.684 C95.141,48.383 95.732,47.949 96.229,47.378 C96.729,46.807 97.117,46.108 97.395,45.283 C97.676,44.459 97.815,43.523 97.815,42.481 C97.815,41.436 97.676,40.501 97.395,39.681 C97.117,38.858 96.729,38.170 96.229,37.605 C95.732,37.044 95.146,36.612 94.464,36.316 C93.783,36.021 93.042,35.875 92.241,35.875 C91.426,35.875 90.670,36.023 89.978,36.321 C89.287,36.625 88.689,37.057 88.189,37.623 C87.687,38.189 87.294,38.882 87.015,39.700 C86.736,40.515 86.600,41.443 86.600,42.481 C86.600,43.523 86.736,44.459 87.009,45.283 Z"/>
+                    </svg>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="140px" height="43px">
+                        <path fill-rule="evenodd"  fill="rgb(112, 112, 112)"
+                              d="M138.773,10.779 C138.420,11.797 137.896,12.723 137.215,13.532 C136.541,14.335 135.713,15.015 134.742,15.561 C134.219,15.849 133.655,16.095 133.055,16.295 C133.311,16.595 133.553,16.948 133.776,17.354 C134.047,17.849 134.310,18.439 134.553,19.105 C134.794,19.760 135.049,20.543 135.309,21.433 L137.131,28.005 L137.411,29.014 L130.144,29.014 L129.996,28.406 L128.378,21.806 C128.186,20.979 127.975,20.299 127.743,19.768 C127.535,19.295 127.304,18.925 127.055,18.667 C126.830,18.439 126.590,18.288 126.324,18.205 C126.014,18.107 125.643,18.059 125.227,18.059 L125.112,18.059 L123.075,28.373 L122.948,29.014 L116.354,29.014 L116.545,28.063 L121.841,1.595 L121.968,0.953 L130.198,0.953 C131.496,0.953 132.699,1.063 133.774,1.284 C134.889,1.514 135.861,1.886 136.666,2.391 C137.509,2.923 138.164,3.620 138.622,4.469 C139.073,5.315 139.303,6.341 139.303,7.521 C139.303,8.673 139.123,9.768 138.773,10.779 ZM131.832,7.215 C131.476,6.977 130.723,6.697 129.147,6.697 L127.391,6.697 L126.217,12.579 L127.006,12.579 C127.886,12.579 128.688,12.483 129.398,12.292 C130.073,12.109 130.645,11.845 131.098,11.504 C131.539,11.170 131.868,10.774 132.105,10.289 C132.337,9.809 132.457,9.235 132.457,8.597 C132.457,7.727 132.101,7.392 131.832,7.215 ZM109.530,16.804 L110.318,12.694 L110.498,11.748 L117.401,11.748 L117.219,12.694 L116.431,16.804 L116.306,17.451 L109.406,17.451 L109.530,16.804 ZM119.036,6.124 L118.905,6.759 L108.074,6.759 L107.061,11.748 L105.951,17.451 L104.795,23.211 L115.627,23.211 L115.439,24.159 L114.610,28.373 L114.484,29.017 L96.975,29.017 L97.166,28.063 L101.441,6.695 L91.978,6.695 L87.680,28.373 L87.553,29.014 L80.841,29.014 L81.028,28.063 L85.278,6.632 L78.056,6.632 L78.220,5.740 L79.089,1.587 L79.221,0.955 L102.588,0.955 L102.588,0.953 L120.100,0.953 L119.903,1.909 L119.036,6.124 ZM72.872,23.333 L71.712,29.014 L65.011,29.014 L66.195,23.333 L69.556,6.637 L70.685,0.955 L77.442,0.955 L76.211,6.637 L72.872,23.333 ZM63.554,16.852 C62.443,17.966 61.029,18.863 59.350,19.524 C57.680,20.177 55.703,20.508 53.472,20.508 L51.338,20.508 L49.785,28.373 L49.657,29.014 L43.061,29.014 L43.252,28.063 L48.549,1.595 L48.677,0.955 L56.828,0.955 C58.614,0.955 60.152,1.155 61.404,1.547 C62.681,1.950 63.738,2.508 64.543,3.203 C65.361,3.908 65.965,4.737 66.338,5.666 C66.699,6.573 66.880,7.515 66.880,8.475 C66.880,10.022 66.607,11.535 66.058,12.976 C65.512,14.432 64.669,15.736 63.554,16.852 ZM59.863,8.230 C59.777,7.957 59.619,7.720 59.383,7.499 C59.133,7.271 58.762,7.078 58.284,6.921 C57.771,6.761 57.076,6.678 56.223,6.678 L54.100,6.678 L52.461,14.785 L54.159,14.785 C55.068,14.785 55.893,14.640 56.613,14.346 C57.328,14.059 57.943,13.664 58.438,13.166 C58.933,12.671 59.322,12.082 59.601,11.409 C59.877,10.740 60.017,10.012 60.017,9.240 C60.017,8.892 59.965,8.553 59.863,8.230 ZM42.751,19.041 C42.400,20.790 41.877,22.337 41.202,23.638 C40.507,24.962 39.634,26.068 38.603,26.931 C37.568,27.803 36.351,28.454 34.983,28.865 C33.655,29.274 32.156,29.480 30.533,29.480 C29.027,29.480 27.701,29.304 26.588,28.960 C25.435,28.603 24.470,28.073 23.718,27.390 C22.953,26.696 22.399,25.844 22.068,24.869 C21.751,23.942 21.590,22.896 21.590,21.760 C21.590,20.809 21.713,19.782 21.951,18.709 L25.367,1.595 L25.494,0.955 L32.085,0.955 L31.895,1.909 L28.456,19.160 C28.309,19.938 28.234,20.631 28.234,21.211 C28.234,21.682 28.288,22.092 28.394,22.425 C28.491,22.722 28.632,22.964 28.829,23.164 C29.012,23.347 29.285,23.494 29.640,23.599 C30.052,23.715 30.561,23.776 31.156,23.776 C31.877,23.776 32.527,23.686 33.085,23.506 C33.612,23.330 34.060,23.060 34.455,22.677 C34.859,22.278 35.208,21.762 35.489,21.138 C35.782,20.477 36.030,19.646 36.220,18.665 L39.657,1.595 L39.785,0.955 L46.396,0.955 L46.205,1.909 L42.751,19.041 ZM19.044,20.863 C18.797,22.072 18.363,23.206 17.757,24.237 C17.148,25.276 16.375,26.191 15.460,26.956 C14.540,27.722 13.455,28.331 12.237,28.763 C11.016,29.200 9.629,29.421 8.118,29.421 C7.396,29.421 6.681,29.353 5.987,29.222 C5.308,29.095 4.642,28.910 4.016,28.671 C3.381,28.424 2.788,28.124 2.248,27.776 C1.700,27.416 1.208,27.008 0.784,26.556 L0.321,26.056 L0.742,25.521 L3.509,21.996 L4.078,21.277 L4.711,21.940 C4.927,22.170 5.170,22.389 5.436,22.601 C5.698,22.811 5.982,22.992 6.284,23.144 C6.594,23.304 6.930,23.430 7.284,23.518 C7.637,23.610 8.040,23.658 8.481,23.658 C8.838,23.658 9.231,23.584 9.657,23.442 C10.069,23.306 10.477,23.072 10.871,22.752 C11.259,22.435 11.614,21.992 11.921,21.440 C12.241,20.872 12.493,20.138 12.675,19.268 L15.212,6.658 L5.654,6.658 L5.844,5.702 L6.672,1.592 L6.800,0.955 L22.991,0.955 L22.800,1.906 L19.044,20.863 ZM24.586,36.836 C25.361,36.836 25.943,37.001 26.337,37.330 C26.731,37.659 26.927,38.168 26.927,38.860 C26.927,38.982 26.920,39.133 26.906,39.313 C26.888,39.495 26.859,39.689 26.816,39.895 C26.773,40.106 26.712,40.324 26.634,40.552 C26.555,40.779 26.455,41.003 26.328,41.220 C26.203,41.436 26.048,41.641 25.866,41.838 C25.685,42.035 25.471,42.206 25.224,42.352 C24.975,42.499 24.693,42.616 24.373,42.702 C24.052,42.790 23.688,42.834 23.281,42.834 L21.865,42.834 L23.074,36.836 L24.586,36.836 ZM23.386,42.126 C23.688,42.126 23.957,42.092 24.193,42.022 C24.429,41.952 24.638,41.855 24.824,41.734 C25.004,41.613 25.164,41.475 25.295,41.315 C25.427,41.154 25.541,40.988 25.633,40.808 C25.728,40.632 25.804,40.452 25.861,40.268 C25.920,40.084 25.965,39.907 25.998,39.737 C26.029,39.571 26.051,39.411 26.063,39.265 C26.074,39.120 26.078,38.997 26.078,38.897 C26.078,38.648 26.045,38.439 25.980,38.266 C25.913,38.093 25.814,37.952 25.682,37.841 C25.550,37.732 25.383,37.650 25.183,37.601 C24.984,37.550 24.752,37.523 24.488,37.523 L23.755,37.523 L22.828,42.126 L23.386,42.126 ZM36.128,36.836 L35.985,37.523 L33.380,37.523 L33.002,39.383 L35.505,39.383 L35.372,40.072 L32.867,40.072 L32.452,42.136 L35.058,42.136 L34.920,42.834 L31.491,42.834 L32.696,36.836 L36.128,36.836 ZM41.085,40.879 L41.202,42.063 L41.830,40.879 L43.942,36.836 L44.860,36.836 L41.600,42.834 L40.499,42.834 L39.704,36.836 L40.590,36.836 L41.085,40.879 ZM51.950,36.836 L51.809,37.523 L49.203,37.523 L48.824,39.383 L51.328,39.383 L51.196,40.072 L48.691,40.072 L48.276,42.136 L50.881,42.136 L50.742,42.834 L47.313,42.834 L48.520,36.836 L51.950,36.836 ZM57.568,36.836 L56.498,42.136 L59.136,42.136 L58.997,42.834 L55.529,42.834 L56.738,36.836 L57.568,36.836 ZM63.376,38.997 C63.488,38.691 63.629,38.403 63.798,38.130 C63.966,37.857 64.164,37.620 64.391,37.417 C64.616,37.214 64.873,37.054 65.158,36.932 C65.445,36.814 65.759,36.753 66.104,36.753 C66.715,36.753 67.175,36.930 67.482,37.282 C67.790,37.633 67.943,38.130 67.943,38.773 C67.943,39.081 67.915,39.399 67.861,39.726 C67.805,40.050 67.721,40.368 67.609,40.675 C67.497,40.983 67.357,41.271 67.190,41.545 C67.022,41.816 66.824,42.053 66.597,42.257 C66.369,42.461 66.114,42.623 65.830,42.739 C65.544,42.858 65.230,42.916 64.886,42.916 C64.271,42.916 63.811,42.741 63.504,42.390 C63.195,42.040 63.042,41.543 63.042,40.899 C63.042,40.589 63.070,40.271 63.125,39.946 C63.179,39.619 63.263,39.304 63.376,38.997 ZM63.947,41.405 C63.990,41.572 64.054,41.714 64.142,41.833 C64.228,41.952 64.342,42.044 64.480,42.109 C64.619,42.172 64.785,42.206 64.978,42.206 C65.228,42.206 65.454,42.151 65.656,42.040 C65.859,41.926 66.039,41.777 66.198,41.593 C66.356,41.407 66.493,41.196 66.607,40.959 C66.720,40.721 66.814,40.480 66.888,40.229 C66.961,39.980 67.016,39.732 67.051,39.490 C67.086,39.250 67.103,39.028 67.103,38.834 C67.103,38.623 67.083,38.437 67.043,38.268 C66.999,38.101 66.934,37.957 66.845,37.838 C66.755,37.723 66.644,37.630 66.507,37.565 C66.371,37.497 66.205,37.465 66.011,37.465 C65.762,37.465 65.536,37.521 65.332,37.635 C65.131,37.747 64.949,37.896 64.793,38.083 C64.634,38.268 64.498,38.477 64.383,38.716 C64.271,38.953 64.176,39.196 64.102,39.445 C64.029,39.693 63.974,39.941 63.939,40.184 C63.904,40.428 63.885,40.647 63.885,40.842 C63.885,41.051 63.907,41.237 63.947,41.405 ZM73.960,36.836 C74.234,36.836 74.489,36.865 74.727,36.921 C74.966,36.978 75.174,37.065 75.352,37.185 C75.531,37.304 75.671,37.458 75.772,37.645 C75.874,37.831 75.923,38.054 75.923,38.314 C75.923,38.502 75.898,38.694 75.846,38.885 C75.794,39.076 75.715,39.259 75.610,39.432 C75.505,39.607 75.376,39.771 75.221,39.924 C75.064,40.077 74.886,40.210 74.682,40.321 C74.477,40.433 74.246,40.521 73.990,40.586 C73.734,40.652 73.453,40.682 73.149,40.682 L72.356,40.682 L71.917,42.834 L71.097,42.834 L72.304,36.836 L73.960,36.836 ZM73.222,39.995 C73.464,39.995 73.679,39.968 73.864,39.917 C74.051,39.868 74.212,39.800 74.349,39.717 C74.487,39.631 74.600,39.534 74.690,39.428 C74.780,39.318 74.854,39.205 74.909,39.084 C74.964,38.965 75.003,38.846 75.026,38.726 C75.050,38.604 75.062,38.490 75.062,38.386 C75.062,38.112 74.961,37.898 74.761,37.749 C74.562,37.599 74.263,37.523 73.862,37.523 L72.987,37.523 L72.493,39.995 L73.222,39.995 ZM82.014,36.836 L82.375,39.094 L82.477,39.857 L82.896,39.094 L84.196,36.836 L85.238,36.836 L84.321,42.834 L83.517,42.834 L84.149,39.094 L84.385,37.659 L83.933,38.492 L82.573,40.879 L82.006,40.879 L81.610,38.584 L81.516,37.659 L81.196,39.159 L80.356,42.834 L79.581,42.834 L81.079,36.836 L82.014,36.836 ZM93.900,36.836 L93.757,37.523 L91.153,37.523 L90.774,39.383 L93.278,39.383 L93.144,40.072 L90.639,40.072 L90.224,42.136 L92.830,42.136 L92.691,42.834 L89.262,42.834 L90.469,36.836 L93.900,36.836 ZM97.968,36.836 L98.922,40.379 L99.250,41.751 L99.894,38.539 L100.240,36.836 L101.006,36.836 L99.799,42.834 L98.769,42.834 L97.770,39.094 L97.492,37.892 L96.889,40.915 L96.502,42.834 L95.736,42.834 L96.948,36.836 L97.968,36.836 ZM104.861,36.836 L109.258,36.836 L109.115,37.533 L107.332,37.533 L106.266,42.834 L105.437,42.834 L106.500,37.533 L104.716,37.533 L104.861,36.836 Z"/>
+                    </svg>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="152px" height="42px">
+                        <path fill-rule="evenodd"  fill="rgb(112, 112, 112)"
+                              d="M147.302,27.352 C144.968,27.352 143.068,25.432 143.068,23.077 C143.068,20.717 144.968,18.800 147.302,18.800 C149.637,18.800 151.533,20.717 151.533,23.077 C151.533,25.432 149.637,27.352 147.302,27.352 ZM147.302,19.349 C145.268,19.349 143.613,21.019 143.613,23.077 C143.613,25.129 145.268,26.801 147.302,26.801 C149.335,26.801 150.992,25.129 150.992,23.077 C150.992,21.019 149.335,19.349 147.302,19.349 ZM148.308,23.239 C148.633,23.372 148.813,23.683 148.931,24.117 C149.074,24.645 149.219,25.260 149.309,25.442 L148.234,25.442 C148.157,25.301 148.047,24.925 147.910,24.347 C147.785,23.762 147.586,23.603 147.157,23.593 L146.841,23.593 L146.841,25.442 L145.801,25.442 L145.801,20.809 C146.136,20.751 146.641,20.710 147.199,20.710 C147.889,20.710 148.370,20.815 148.702,21.078 C148.977,21.303 149.130,21.629 149.130,22.062 C149.130,22.662 148.710,23.072 148.308,23.216 L148.308,23.239 ZM147.315,21.496 C147.058,21.496 146.916,21.516 146.841,21.531 L146.841,22.829 L147.254,22.829 C147.779,22.829 148.089,22.563 148.089,22.153 C148.089,21.720 147.798,21.504 147.315,21.496 ZM134.584,26.533 L131.498,41.563 L128.295,41.563 L131.382,26.533 L125.865,26.533 L126.405,23.814 L140.652,23.814 L140.099,26.533 L134.584,26.533 ZM115.040,26.533 L114.093,31.122 L120.787,31.122 L120.236,33.844 L113.540,33.844 L112.504,38.843 L120.787,38.843 L120.236,41.563 L108.749,41.563 L112.385,23.814 L123.401,23.814 L122.836,26.533 L115.040,26.533 ZM106.812,41.563 L103.124,41.563 L98.042,33.364 L97.990,33.364 L96.311,41.563 L93.105,41.563 L96.742,23.814 L99.946,23.814 L98.330,31.707 L98.384,31.707 L105.656,23.814 L109.622,23.814 L101.232,32.742 L106.812,41.563 ZM90.540,26.381 C89.964,26.280 89.353,26.228 88.717,26.228 C87.963,26.228 87.259,26.338 86.603,26.560 C85.947,26.781 85.357,27.086 84.837,27.475 C84.315,27.865 83.860,28.326 83.472,28.855 C83.081,29.387 82.756,29.965 82.494,30.587 C82.232,31.210 82.035,31.864 81.904,32.551 C81.771,33.236 81.706,33.927 81.706,34.624 C81.706,35.520 81.825,36.258 82.067,36.839 C82.308,37.424 82.638,37.887 83.058,38.229 C83.478,38.567 83.971,38.806 84.534,38.944 C85.100,39.082 85.701,39.150 86.339,39.150 C87.040,39.158 87.760,39.094 88.499,38.956 C89.240,38.821 89.982,38.623 90.726,38.366 L90.148,41.232 C89.438,41.478 88.676,41.650 87.864,41.749 C87.050,41.847 86.315,41.896 85.658,41.896 C84.598,41.896 83.629,41.760 82.749,41.490 C81.871,41.222 81.115,40.802 80.487,40.236 C79.854,39.671 79.362,38.946 79.015,38.061 C78.665,37.177 78.488,36.124 78.488,34.904 C78.488,34.037 78.575,33.152 78.744,32.250 C78.915,31.348 79.179,30.475 79.534,29.630 C79.887,28.786 80.332,27.990 80.871,27.244 C81.410,26.496 82.050,25.845 82.795,25.287 C83.539,24.729 84.403,24.289 85.383,23.967 C86.363,23.645 87.423,23.482 88.559,23.482 C89.180,23.482 89.891,23.542 90.693,23.655 C91.493,23.771 92.239,23.942 92.931,24.173 L92.393,26.826 C91.737,26.632 91.120,26.482 90.540,26.381 ZM75.315,35.094 C74.993,35.960 74.574,36.801 74.057,37.617 C73.540,38.435 72.912,39.160 72.173,39.792 C71.433,40.423 70.572,40.932 69.593,41.319 C68.613,41.702 67.497,41.896 66.246,41.896 C65.221,41.896 64.290,41.751 63.454,41.464 C62.619,41.176 61.904,40.748 61.310,40.178 C60.714,39.608 60.255,38.899 59.930,38.054 C59.605,37.211 59.445,36.235 59.445,35.128 C59.445,34.440 59.518,33.676 59.659,32.833 C59.804,31.995 60.040,31.142 60.362,30.281 C60.688,29.418 61.107,28.578 61.623,27.760 C62.139,26.943 62.767,26.218 63.507,25.584 C64.247,24.953 65.107,24.444 66.086,24.060 C67.068,23.674 68.184,23.482 69.436,23.482 C70.461,23.482 71.390,23.626 72.225,23.912 C73.061,24.202 73.776,24.630 74.373,25.200 C74.968,25.771 75.425,26.479 75.751,27.325 C76.073,28.168 76.236,29.143 76.236,30.248 C76.236,30.938 76.164,31.703 76.019,32.543 C75.874,33.384 75.641,34.234 75.315,35.094 ZM72.003,27.263 C71.323,26.572 70.394,26.228 69.213,26.228 C68.505,26.228 67.851,26.351 67.256,26.599 C66.660,26.847 66.121,27.187 65.635,27.614 C65.147,28.043 64.720,28.546 64.348,29.122 C63.976,29.695 63.663,30.308 63.415,30.965 C63.167,31.618 62.976,32.297 62.851,33.000 C62.723,33.703 62.660,34.392 62.660,35.063 C62.660,35.736 62.748,36.327 62.923,36.834 C63.099,37.343 63.349,37.770 63.677,38.116 C64.005,38.460 64.407,38.717 64.879,38.890 C65.352,39.062 65.882,39.150 66.468,39.150 C67.177,39.150 67.830,39.025 68.424,38.778 C69.019,38.531 69.561,38.191 70.046,37.760 C70.532,37.333 70.962,36.832 71.333,36.258 C71.703,35.682 72.016,35.067 72.265,34.414 C72.514,33.757 72.701,33.078 72.828,32.378 C72.955,31.675 73.020,30.987 73.020,30.313 C73.020,28.969 72.680,27.954 72.003,27.263 ZM57.315,32.025 C56.889,32.531 56.347,32.966 55.685,33.339 C55.024,33.710 54.230,34.003 53.302,34.214 L53.302,34.267 L57.202,41.563 L53.657,41.563 L50.137,34.694 L48.010,34.694 L46.606,41.563 L43.402,41.563 L47.039,23.814 L51.794,23.814 C52.554,23.814 53.207,23.841 53.753,23.893 C54.301,23.947 54.780,24.036 55.191,24.158 C56.347,24.495 57.194,25.026 57.733,25.752 C58.271,26.477 58.541,27.330 58.541,28.312 C58.541,29.028 58.442,29.699 58.244,30.327 C58.047,30.955 57.739,31.521 57.315,32.025 ZM55.035,27.450 C54.842,27.131 54.527,26.897 54.088,26.747 C53.880,26.676 53.608,26.621 53.278,26.587 C52.942,26.549 52.528,26.533 52.029,26.533 L49.692,26.533 L48.575,31.973 L49.809,31.973 C50.397,31.973 50.920,31.953 51.386,31.911 C51.849,31.874 52.265,31.798 52.632,31.694 C53.464,31.464 54.119,31.090 54.600,30.574 C55.084,30.055 55.323,29.387 55.323,28.563 C55.323,28.138 55.228,27.767 55.035,27.450 ZM12.677,41.866 L0.685,41.866 C0.685,41.866 2.319,41.171 3.614,40.738 C4.008,40.605 4.252,40.458 4.421,40.313 C3.659,39.490 3.182,38.391 3.182,37.172 C3.182,34.629 5.224,32.562 7.743,32.562 C8.646,32.562 9.484,32.835 10.192,33.295 C9.990,33.878 9.854,34.479 9.854,35.084 C9.854,36.416 10.423,37.619 11.338,38.585 C10.873,37.721 10.583,36.747 10.583,35.694 C10.583,32.332 13.283,29.606 16.609,29.606 C19.935,29.606 22.633,32.332 22.633,35.694 C22.633,36.687 22.378,37.608 21.960,38.437 C22.785,37.501 23.279,36.342 23.279,35.084 C23.279,34.153 22.977,33.241 22.485,32.393 C22.868,32.289 23.256,32.213 23.667,32.213 C25.940,32.213 27.799,33.937 28.085,36.154 C26.908,36.635 25.969,37.648 25.488,38.934 L25.675,38.956 C26.460,37.648 27.867,36.766 29.490,36.766 C31.591,36.766 33.341,38.234 33.821,40.202 C33.975,40.384 34.250,40.588 34.774,40.764 C36.066,41.197 37.700,41.896 37.700,41.896 L12.654,41.896 L12.677,41.866 ZM16.740,22.764 C17.001,22.979 17.699,23.389 17.964,23.408 C18.235,23.389 18.912,22.979 19.176,22.764 L20.108,25.489 L19.053,24.341 L19.713,28.546 L18.604,27.494 C18.512,27.477 18.374,28.079 18.280,28.079 C18.212,28.079 17.968,28.721 17.899,28.728 C17.827,28.721 17.702,28.079 17.634,28.079 C17.540,28.079 17.402,27.477 17.310,27.494 L16.201,28.546 L16.861,24.341 L15.806,25.489 L16.740,22.764 ZM20.423,20.980 C20.423,20.980 18.844,21.914 17.740,21.910 L17.731,21.910 L17.726,21.910 C16.958,21.934 15.045,20.980 15.045,20.980 C15.045,20.980 15.045,20.980 11.371,22.430 C11.600,19.358 13.150,17.502 14.471,15.125 C13.495,3.646 17.519,0.792 17.519,0.792 C17.519,0.792 21.971,3.646 20.995,15.125 C22.316,17.502 23.865,19.358 24.097,22.430 C20.423,20.980 20.423,20.980 20.423,20.980 Z"/>
+                    </svg>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="164px" height="40px">
+                        <path fill-rule="evenodd"  fill="rgb(112, 112, 112)"
+                              d="M160.164,16.007 L159.579,16.038 L159.482,15.840 C159.159,15.040 158.667,14.408 157.971,13.906 C157.289,13.415 156.525,13.177 155.635,13.177 C154.699,13.177 153.906,13.318 153.277,13.597 C152.646,13.874 152.110,14.257 151.683,14.736 C150.729,15.776 149.988,17.028 149.988,18.574 C149.988,20.120 150.729,21.376 151.677,22.407 C152.630,23.462 153.926,23.972 155.635,23.972 C156.527,23.972 157.290,23.733 157.971,23.244 C158.667,22.741 159.159,22.109 159.482,21.308 L159.485,21.048 L160.226,21.017 L162.853,20.955 L163.988,21.017 L163.585,21.810 C163.033,23.561 162.013,24.987 160.552,26.052 C159.018,27.141 157.190,27.942 155.110,27.942 C152.494,27.942 150.328,26.789 148.676,25.016 C147.081,23.303 145.993,21.134 145.993,18.574 C145.993,16.013 147.081,13.845 148.674,12.134 C150.326,10.360 152.399,8.960 155.017,8.960 C157.096,8.960 159.018,10.008 160.544,11.090 C162.013,12.163 163.033,13.587 163.585,15.336 L163.862,15.975 L162.853,16.007 L160.164,16.007 ZM145.699,34.953 C145.674,34.588 145.397,34.406 144.865,34.406 C144.747,34.406 144.637,34.417 144.536,34.441 C144.436,34.464 144.348,34.497 144.275,34.540 C144.200,34.583 144.141,34.639 144.101,34.702 C144.059,34.767 144.040,34.841 144.040,34.925 C144.040,34.999 144.049,35.064 144.069,35.113 C144.086,35.161 144.133,35.206 144.206,35.250 C144.279,35.290 144.387,35.331 144.531,35.372 C144.673,35.413 144.868,35.464 145.117,35.524 C145.358,35.582 145.564,35.641 145.739,35.701 C145.916,35.761 146.061,35.836 146.181,35.923 C146.298,36.012 146.386,36.117 146.440,36.242 C146.498,36.368 146.524,36.524 146.524,36.711 C146.524,36.887 146.488,37.049 146.415,37.199 C146.338,37.350 146.233,37.481 146.098,37.591 C145.961,37.704 145.796,37.791 145.600,37.853 C145.403,37.916 145.185,37.948 144.943,37.948 C143.870,37.948 143.305,37.528 143.248,36.689 L143.954,36.689 C143.954,37.163 144.283,37.399 144.934,37.399 C145.081,37.399 145.210,37.384 145.321,37.353 C145.432,37.322 145.525,37.278 145.600,37.223 C145.674,37.167 145.731,37.103 145.768,37.027 C145.807,36.952 145.827,36.870 145.827,36.778 C145.827,36.687 145.813,36.613 145.785,36.556 C145.757,36.498 145.698,36.450 145.614,36.406 C145.532,36.363 145.415,36.319 145.266,36.276 C145.117,36.233 144.923,36.182 144.682,36.120 C144.449,36.062 144.247,36.004 144.079,35.947 C143.907,35.891 143.769,35.822 143.661,35.740 C143.552,35.658 143.471,35.557 143.420,35.437 C143.368,35.319 143.340,35.168 143.340,34.985 C143.340,34.826 143.374,34.678 143.445,34.540 C143.513,34.401 143.611,34.283 143.740,34.182 C143.868,34.081 144.022,34.004 144.204,33.947 C144.385,33.889 144.589,33.860 144.811,33.860 C145.849,33.860 146.376,34.225 146.393,34.953 L145.699,34.953 ZM143.237,8.044 L141.580,7.950 L141.032,7.982 L141.032,7.096 L141.032,4.923 L141.032,3.979 L141.612,3.979 L143.924,4.072 L143.975,4.103 L143.975,4.548 L143.944,6.753 L144.038,8.013 L143.237,8.044 ZM141.037,9.968 L141.772,9.999 L143.798,9.968 L143.967,10.061 L143.967,12.695 L143.967,24.327 L143.967,26.962 L143.423,27.025 L141.740,26.994 L141.006,26.931 L141.037,26.202 L141.006,12.477 L141.037,9.968 ZM137.318,36.658 C137.383,36.824 137.468,36.962 137.574,37.073 C137.680,37.183 137.801,37.264 137.939,37.317 C138.076,37.373 138.227,37.399 138.389,37.399 C138.506,37.399 138.621,37.384 138.736,37.353 C138.851,37.322 138.957,37.276 139.049,37.216 C139.141,37.156 139.214,37.081 139.273,36.996 C139.331,36.906 139.361,36.805 139.363,36.689 L140.100,36.689 C140.068,36.891 140.006,37.069 139.906,37.225 C139.809,37.382 139.684,37.514 139.535,37.620 C139.385,37.726 139.213,37.808 139.019,37.863 C138.821,37.919 138.611,37.948 138.389,37.948 C138.103,37.948 137.842,37.901 137.604,37.810 C137.368,37.718 137.165,37.584 136.994,37.411 C136.826,37.233 136.695,37.019 136.601,36.769 C136.507,36.514 136.462,36.225 136.462,35.904 C136.462,35.586 136.506,35.300 136.596,35.050 C136.687,34.797 136.815,34.583 136.976,34.406 C137.139,34.230 137.335,34.095 137.562,33.999 C137.791,33.908 138.042,33.860 138.314,33.860 C138.598,33.860 138.853,33.905 139.082,33.999 C139.311,34.090 139.507,34.225 139.668,34.401 C139.828,34.577 139.953,34.791 140.038,35.043 C140.126,35.295 140.170,35.583 140.170,35.904 L140.170,36.070 L137.197,36.070 C137.212,36.296 137.254,36.492 137.318,36.658 ZM139.426,35.524 C139.370,35.153 139.243,34.874 139.044,34.690 C138.844,34.500 138.601,34.406 138.314,34.406 C138.174,34.406 138.042,34.430 137.918,34.475 C137.795,34.521 137.684,34.591 137.588,34.684 C137.490,34.776 137.411,34.891 137.344,35.034 C137.279,35.172 137.231,35.335 137.205,35.524 L139.426,35.524 ZM130.083,27.972 C128.120,27.972 126.246,27.100 124.923,25.994 L124.954,32.838 L124.923,33.971 L124.530,33.939 L121.944,34.001 L120.990,34.033 L120.990,33.151 L120.990,10.758 L120.990,9.001 L121.913,9.001 L124.374,9.001 L124.985,9.032 L124.954,10.352 L125.017,11.169 C126.356,10.075 128.190,8.991 130.245,8.991 C132.823,8.991 134.949,10.362 136.558,12.141 C138.144,13.874 138.982,16.038 138.982,18.574 C138.982,21.110 138.144,23.277 136.554,25.013 C134.949,26.786 132.770,27.972 130.083,27.972 ZM133.610,14.737 C132.659,13.686 131.451,12.958 129.919,12.958 C128.372,12.958 127.191,13.682 126.305,14.720 C125.434,15.738 125.010,16.994 125.010,18.574 C125.010,20.154 125.434,21.413 126.304,22.426 C127.191,23.466 128.372,23.972 129.919,23.972 C131.451,23.972 132.659,23.462 133.610,22.411 C134.515,21.402 134.956,20.146 134.956,18.574 C134.956,17.002 134.515,15.747 133.610,14.737 ZM119.056,27.869 L116.032,27.962 L116.017,27.931 L115.985,26.796 L115.985,17.310 C115.985,16.011 115.262,15.017 114.541,14.270 C113.834,13.535 112.930,12.989 111.786,12.989 C110.603,12.989 109.625,13.555 108.803,14.328 C107.996,15.109 107.974,16.129 107.974,17.375 L107.943,26.640 L107.881,27.931 L106.893,27.931 L105.152,27.962 L103.981,27.931 L104.043,26.921 L104.012,11.133 L104.074,9.061 L104.964,8.999 L106.987,8.999 L107.912,8.967 L108.006,9.008 L107.943,11.076 C108.252,10.816 108.235,10.609 108.582,10.388 C109.557,9.772 110.678,8.991 111.916,8.991 C113.098,8.991 114.141,9.628 115.014,9.962 C115.904,10.304 116.691,10.823 117.357,11.506 C118.843,12.949 120.011,14.324 120.011,16.685 L120.042,26.202 L120.011,27.900 L119.056,27.869 ZM93.405,27.972 C90.748,27.972 88.581,26.792 86.905,25.019 C85.331,23.322 85.005,21.157 85.005,18.574 C85.005,15.992 85.331,13.826 86.902,12.134 C88.580,10.360 90.779,8.960 93.436,8.960 C96.097,8.960 98.294,10.360 99.968,12.129 C101.544,13.826 101.965,16.023 101.965,18.606 C101.965,21.188 101.544,23.322 99.972,25.016 C98.292,26.792 96.066,27.972 93.405,27.972 ZM97.052,14.725 C96.165,13.682 94.984,12.989 93.436,12.989 C91.890,12.989 90.711,13.682 89.828,14.720 C88.953,15.738 87.968,16.994 87.968,18.574 C87.968,20.151 88.953,21.413 89.824,22.426 C90.708,23.466 91.890,23.972 93.436,23.972 C94.984,23.972 96.166,23.466 97.047,22.428 C97.922,21.413 99.001,20.151 99.001,18.574 C99.001,16.994 97.922,15.738 97.052,14.725 ZM74.617,27.972 C71.958,27.972 69.761,26.792 68.089,25.019 C66.512,23.322 65.966,21.157 65.966,18.574 C65.966,15.992 66.512,13.826 68.083,12.134 C69.761,10.360 71.927,8.960 74.585,8.960 C77.246,8.960 79.474,10.360 81.149,12.129 C82.724,13.826 82.959,15.930 82.959,18.512 C82.959,21.094 82.724,23.322 81.153,25.016 C79.474,26.792 77.277,27.972 74.617,27.972 ZM78.232,14.725 C77.346,13.682 76.133,12.958 74.585,12.958 C73.040,12.958 71.890,13.682 71.008,14.720 C70.134,15.738 69.022,17.057 69.022,18.637 C69.022,20.214 70.134,21.413 71.003,22.426 C71.890,23.466 73.072,23.972 74.617,23.972 C76.165,23.972 77.346,23.466 78.230,22.428 C79.102,21.413 80.025,20.182 80.025,18.606 C80.025,17.026 79.102,15.738 78.232,14.725 ZM61.015,27.900 L60.966,27.837 L60.966,26.671 L60.998,16.954 C60.998,15.795 60.435,14.877 59.791,14.151 C59.182,13.500 58.413,13.177 57.446,13.177 C56.400,13.177 55.556,13.500 54.866,14.160 C54.137,14.845 53.786,15.770 53.786,16.988 L53.973,26.671 L53.973,27.962 L52.989,27.962 L50.528,27.993 L50.072,27.931 L50.072,26.702 L50.010,16.923 C50.010,15.761 49.479,14.877 48.834,14.151 C48.228,13.500 47.457,13.177 46.490,13.177 C45.445,13.177 44.599,13.500 43.912,14.160 C43.182,14.845 43.019,15.800 43.019,17.019 L42.956,26.733 L42.956,27.931 L42.065,27.962 L39.604,28.025 L39.054,27.978 L38.992,26.890 L39.023,10.852 L38.961,10.124 L39.792,9.999 L42.002,10.030 L42.894,9.999 L42.831,10.477 L42.831,10.862 C43.951,9.929 45.394,8.991 47.080,8.991 C48.313,8.991 49.440,9.787 50.489,10.432 C51.190,10.864 51.793,11.417 52.291,12.081 C53.092,11.095 54.157,10.351 55.471,9.864 C56.189,9.594 56.971,8.991 57.861,8.991 C58.759,8.991 59.665,9.638 60.491,9.989 C61.313,10.342 62.054,10.852 62.691,11.506 C64.055,12.949 64.932,14.569 64.932,16.701 L64.994,26.233 L65.057,28.025 L64.037,27.962 L61.015,27.900 ZM33.115,19.322 C32.463,17.920 31.642,16.564 30.649,15.288 C27.498,11.242 22.006,10.022 17.499,12.067 C16.920,12.327 16.358,12.648 15.818,13.021 C15.236,13.294 14.709,13.664 14.259,14.114 C15.126,10.681 17.870,7.838 21.606,6.996 C23.115,6.655 24.627,6.491 26.112,6.491 C28.281,6.491 30.400,6.842 32.402,7.496 C34.595,10.410 35.895,14.019 35.895,17.927 C35.895,20.161 35.465,22.297 34.693,24.262 C34.378,22.579 33.858,20.918 33.115,19.322 ZM21.370,5.986 C16.371,7.112 12.976,11.472 12.921,16.324 C12.764,16.830 12.679,17.370 12.679,17.927 C12.679,20.931 15.145,23.365 18.189,23.365 C18.791,23.365 19.371,23.268 19.914,23.089 C19.939,23.084 19.966,23.083 19.992,23.077 C19.972,23.138 19.953,23.197 19.932,23.254 C18.409,27.415 14.132,30.137 9.495,29.573 C7.962,29.388 6.482,29.035 5.084,28.537 C4.616,28.369 4.155,28.181 3.704,27.982 C1.677,25.137 0.480,21.670 0.480,17.927 C0.480,8.268 8.408,0.439 18.189,0.439 C23.338,0.439 27.971,2.611 31.205,6.076 C29.560,5.671 27.851,5.454 26.112,5.454 C24.548,5.454 22.958,5.626 21.370,5.986 ZM9.370,30.601 C14.499,31.225 19.233,28.215 20.918,23.608 C21.053,23.239 21.170,22.856 21.265,22.466 C21.341,22.404 21.418,22.341 21.489,22.274 C22.827,21.282 23.697,19.707 23.697,17.927 C23.697,17.678 23.674,17.434 23.641,17.197 C25.915,20.197 26.313,24.364 24.304,27.826 C23.538,29.153 22.635,30.359 21.629,31.441 C20.155,33.024 18.451,34.327 16.602,35.341 C12.009,34.939 7.921,32.805 5.008,29.602 C6.397,30.076 7.854,30.419 9.370,30.601 ZM25.218,28.340 C27.781,23.906 26.802,18.432 23.153,15.114 C22.971,14.949 22.771,14.800 22.577,14.648 C21.749,13.569 20.529,12.809 19.122,12.569 C22.932,11.403 27.243,12.612 29.815,15.922 C30.759,17.134 31.541,18.423 32.161,19.757 C33.095,21.765 33.661,23.882 33.884,26.018 C30.975,31.511 25.199,35.285 18.515,35.406 C19.924,34.488 21.232,33.399 22.401,32.143 C23.461,31.007 24.406,29.735 25.218,28.340 ZM129.659,34.415 C129.809,34.235 129.986,34.098 130.190,34.004 C130.391,33.908 130.610,33.860 130.847,33.860 C131.061,33.860 131.261,33.894 131.440,33.958 C131.618,34.026 131.786,34.124 131.937,34.254 L131.937,32.468 L132.636,32.468 L132.636,37.853 L131.937,37.853 L131.937,37.392 C131.618,37.761 131.243,37.948 130.809,37.948 C130.546,37.948 130.311,37.900 130.110,37.803 C129.909,37.704 129.736,37.570 129.598,37.394 C129.459,37.219 129.354,37.007 129.284,36.759 C129.214,36.511 129.178,36.237 129.178,35.937 C129.178,35.615 129.222,35.326 129.307,35.069 C129.391,34.812 129.510,34.593 129.659,34.415 ZM130.159,37.028 C130.329,37.276 130.563,37.399 130.863,37.399 C131.059,37.399 131.246,37.346 131.425,37.233 C131.605,37.125 131.776,36.954 131.937,36.727 L131.937,34.880 C131.622,34.564 131.275,34.406 130.892,34.406 C130.593,34.406 130.354,34.533 130.175,34.788 C129.995,35.043 129.905,35.425 129.905,35.937 C129.905,36.418 129.989,36.780 130.159,37.028 ZM150.394,33.218 L149.697,33.218 L149.697,32.468 L150.394,32.468 L150.394,33.218 ZM150.394,37.853 L149.697,37.853 L149.697,33.958 L150.394,33.958 L150.394,37.853 ZM154.350,34.415 C154.501,34.235 154.676,34.098 154.878,34.004 C155.080,33.908 155.301,33.860 155.536,33.860 C155.752,33.860 155.949,33.894 156.129,33.958 C156.309,34.026 156.475,34.124 156.629,34.254 L156.629,33.958 L157.326,33.958 L157.326,37.551 C157.326,38.808 156.752,39.435 155.608,39.435 C155.359,39.435 155.137,39.408 154.938,39.354 C154.740,39.298 154.572,39.222 154.432,39.121 C154.293,39.016 154.187,38.895 154.112,38.745 C154.039,38.599 154.000,38.432 154.000,38.250 L154.727,38.250 C154.727,38.678 155.013,38.895 155.587,38.895 C155.754,38.895 155.903,38.873 156.033,38.834 C156.162,38.795 156.272,38.723 156.358,38.625 C156.447,38.524 156.514,38.390 156.557,38.219 C156.606,38.050 156.629,37.839 156.629,37.579 L156.629,37.392 C156.309,37.761 155.932,37.948 155.500,37.948 C155.234,37.948 155.002,37.900 154.800,37.803 C154.597,37.704 154.428,37.570 154.288,37.394 C154.150,37.219 154.044,37.007 153.975,36.759 C153.903,36.511 153.869,36.237 153.869,35.937 C153.869,35.615 153.912,35.326 153.997,35.069 C154.082,34.812 154.198,34.593 154.350,34.415 ZM154.849,37.028 C155.018,37.276 155.254,37.399 155.555,37.399 C155.748,37.399 155.936,37.346 156.115,37.233 C156.294,37.125 156.465,36.954 156.629,36.727 L156.629,34.880 C156.314,34.564 155.965,34.406 155.584,34.406 C155.283,34.406 155.044,34.533 154.863,34.788 C154.685,35.043 154.596,35.425 154.596,35.937 C154.596,36.418 154.680,36.780 154.849,37.028 ZM161.325,34.451 C161.498,34.254 161.684,34.105 161.882,34.007 C162.080,33.908 162.287,33.860 162.501,33.860 C163.396,33.860 163.839,34.340 163.839,35.305 L163.839,37.853 L163.134,37.853 L163.134,35.335 C163.134,35.175 163.120,35.038 163.091,34.925 C163.064,34.809 163.023,34.716 162.961,34.644 C162.902,34.573 162.826,34.521 162.735,34.488 C162.643,34.456 162.532,34.440 162.403,34.440 C162.044,34.440 161.684,34.646 161.325,35.060 L161.325,37.853 L160.627,37.853 L160.627,33.958 L161.325,33.958 L161.325,34.451 Z"/>
+                    </svg>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="146px" height="37px">
+                        <path fill-rule="evenodd"  fill="rgb(112, 112, 112)"
+                              d="M141.303,13.200 L140.441,9.691 C140.382,9.511 140.317,9.354 140.166,9.203 C139.573,8.702 138.702,8.077 137.813,8.077 C136.737,8.077 135.824,8.699 135.093,9.249 C134.703,9.553 133.811,10.406 133.811,11.948 C133.811,14.312 134.925,14.807 138.795,16.155 C143.464,17.767 145.454,19.983 145.454,23.574 C145.454,26.125 144.398,28.430 142.556,29.893 C140.603,31.450 138.103,31.924 134.286,31.924 L134.161,31.924 C132.729,31.924 129.869,32.018 128.115,31.450 C127.834,29.211 127.582,27.003 127.334,24.826 L127.061,24.357 C128.280,24.100 129.772,23.879 130.868,23.734 L131.929,27.507 C132.028,27.824 132.175,28.030 132.358,28.126 C133.138,28.678 134.154,29.005 135.295,29.005 C136.277,29.005 137.620,28.728 138.443,28.044 C139.189,27.448 139.586,26.561 139.586,25.487 C139.586,23.091 138.261,22.596 135.065,21.402 C130.339,19.618 127.943,16.993 127.943,13.609 C127.943,10.590 129.617,8.631 130.615,7.731 C132.415,6.084 135.441,4.989 139.133,4.989 C141.466,4.989 143.341,5.488 144.243,5.804 C144.463,8.094 144.871,10.462 145.029,12.792 C143.992,12.945 142.600,13.052 141.461,13.181 L141.303,13.200 ZM124.297,31.935 C123.732,31.944 123.500,31.957 123.106,31.957 C122.633,31.957 121.399,31.967 120.269,31.979 C119.399,31.986 118.525,31.931 118.049,31.936 L117.205,30.467 C116.268,28.752 115.376,26.521 114.457,24.325 L114.089,23.457 C113.516,22.087 112.979,20.951 111.793,20.951 C111.303,20.951 110.597,20.894 110.401,20.963 L110.126,21.619 L109.999,21.913 L109.954,28.474 L110.078,28.991 L110.467,29.013 L112.985,28.989 C112.960,29.879 112.957,31.093 112.957,31.980 L106.869,32.012 L102.050,31.949 C102.071,31.059 102.045,29.877 102.045,28.989 L103.620,29.013 C103.916,29.013 104.129,28.736 104.129,28.478 L103.951,10.960 L103.983,9.000 L103.683,8.983 L102.034,8.945 C102.034,8.024 102.010,5.902 102.030,5.003 C105.635,4.949 108.566,4.987 111.111,4.987 C113.422,4.987 114.694,5.549 117.085,6.118 C120.537,6.880 122.953,10.003 122.953,12.436 C122.953,15.498 120.897,17.963 117.806,19.250 L117.554,19.355 L117.554,19.630 L117.554,19.880 L117.554,20.140 L117.784,20.250 C119.307,20.983 120.236,22.925 121.771,26.142 L122.257,27.162 C122.666,28.091 123.044,28.821 123.829,28.888 L124.907,29.061 C124.906,29.494 124.988,29.997 124.981,30.439 C124.974,30.891 124.964,31.497 124.961,31.949 C124.644,31.954 124.677,31.930 124.297,31.935 ZM111.935,8.089 C111.218,8.089 110.798,8.131 110.486,8.231 L110.206,8.324 L109.923,8.653 L109.999,18.296 L110.118,18.750 L110.435,18.984 C110.651,19.036 111.029,19.036 111.649,19.036 C114.560,19.036 116.392,16.827 116.392,13.775 C116.392,10.588 114.435,8.089 111.935,8.089 ZM99.925,31.956 L95.602,31.995 L89.012,31.995 C89.012,31.092 88.977,29.935 89.001,29.033 L90.966,28.929 C91.115,28.929 91.280,28.844 91.383,28.702 C91.490,28.552 91.517,28.363 91.455,28.180 C91.383,27.961 91.292,27.658 91.189,27.326 C91.001,26.704 90.787,25.999 90.622,25.580 C90.578,25.396 90.411,24.958 89.951,24.958 L82.308,24.979 L81.983,25.203 L81.914,25.519 C81.832,25.882 81.730,26.285 81.628,26.691 C81.468,27.313 81.308,27.950 81.209,28.481 L81.120,28.944 L81.588,28.971 L83.983,29.035 C83.983,29.910 83.941,31.096 83.916,31.995 L78.098,31.995 L73.990,31.995 C73.996,31.096 74.104,29.907 74.137,29.033 L75.981,28.971 C76.223,28.971 76.499,28.762 76.589,28.483 C79.231,21.440 82.842,11.269 85.128,5.027 C85.958,4.968 87.699,4.999 90.194,4.999 C91.518,8.856 93.090,13.915 94.612,18.472 C95.835,22.142 97.024,25.711 98.027,28.649 L98.112,28.908 L98.382,28.927 L100.030,29.064 C100.030,29.940 100.012,30.516 99.987,31.415 L99.925,31.956 ZM88.954,19.989 C88.364,18.132 88.408,17.943 87.747,15.722 C87.431,14.664 87.114,13.591 86.792,12.534 L86.704,12.240 L86.399,12.240 L86.196,12.240 L85.894,12.240 L85.803,12.531 C85.228,14.393 84.635,16.330 84.067,18.196 L83.275,20.024 C83.240,20.161 82.897,22.097 83.057,22.302 L83.086,21.996 L83.626,21.996 L88.935,21.996 L89.623,22.027 L88.954,19.989 ZM70.043,28.983 L70.595,28.969 L73.015,28.973 C73.015,29.829 73.011,31.081 72.987,31.960 L72.249,31.993 L67.701,31.960 L62.011,31.995 C62.011,31.555 61.990,30.689 61.997,30.235 C62.006,29.782 62.042,29.403 62.045,28.976 L64.281,28.969 L64.285,28.969 C64.352,28.969 64.985,28.934 64.985,28.392 L65.037,27.553 C65.000,23.419 64.988,19.589 65.006,14.736 L64.996,13.954 L64.219,13.985 L63.890,13.985 L63.598,13.985 L63.503,14.263 C61.123,21.089 59.113,25.651 57.263,29.974 C57.012,29.976 56.690,29.981 56.324,29.986 C55.676,29.999 54.900,29.979 54.212,29.979 C52.142,25.029 50.755,21.752 48.575,15.134 L48.169,13.976 L47.778,13.976 L47.406,13.976 L47.003,13.944 L46.965,14.413 C46.904,18.105 47.031,20.225 46.994,21.989 C46.948,24.172 47.027,26.328 46.989,28.510 L47.045,28.967 L47.658,28.990 L50.035,29.041 C50.035,29.899 49.967,31.098 49.945,31.977 L44.610,32.009 L39.999,32.009 L40.030,29.041 L42.568,28.969 L42.653,28.967 L42.728,28.927 C43.019,28.782 43.081,28.556 43.081,28.392 C43.116,22.842 42.916,16.311 43.005,10.110 L43.042,8.964 L42.555,9.006 L40.986,8.964 C40.989,8.476 41.031,7.528 41.036,7.021 C41.044,6.535 41.020,5.515 41.023,5.057 L50.958,5.024 C52.172,8.309 54.384,16.099 56.183,21.410 L56.483,22.297 L56.580,22.577 L56.870,22.577 L57.202,22.577 L57.490,22.577 L57.587,22.302 C58.367,20.096 59.196,17.732 60.022,15.383 C61.253,11.879 62.973,7.812 63.978,4.990 L72.988,5.024 C72.987,5.477 73.014,6.626 73.006,7.109 C72.997,7.617 72.990,8.436 72.985,8.930 L70.466,8.933 L70.397,8.967 C70.123,8.967 69.923,9.590 69.923,9.912 C69.948,12.987 69.991,15.679 70.003,19.111 C70.011,22.310 69.987,24.027 70.007,27.053 L70.043,28.983 ZM24.723,26.291 C20.541,26.291 17.150,22.884 17.150,18.676 C17.150,14.469 20.541,11.058 24.723,11.058 C28.902,11.058 32.297,14.469 32.297,18.676 C32.297,22.884 28.902,26.291 24.723,26.291 ZM8.254,36.386 C4.071,36.386 0.682,32.974 0.682,28.767 C0.682,24.563 4.071,21.150 8.254,21.150 C12.433,21.150 15.824,24.563 15.824,28.767 C15.824,32.974 12.433,36.386 8.254,36.386 ZM8.254,16.199 C4.071,16.199 0.682,12.789 0.682,8.582 C0.682,4.375 4.071,0.967 8.254,0.967 C12.433,0.967 15.824,4.375 15.824,8.582 C15.824,12.789 12.433,16.199 8.254,16.199 Z"/>
+                    </svg>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                    <svg xmlns="http://www.w3.org/2000/svg"
+                         width="101px" height="52px">
+                        <path fill-rule="evenodd"  fill="rgb(112, 112, 112)"
+                              d="M97.311,7.982 C96.796,7.937 96.321,8.010 95.751,8.010 C94.557,8.010 93.761,8.086 93.642,8.233 C93.442,8.479 92.988,8.765 92.988,10.510 L92.988,11.988 L98.995,11.988 L98.995,18.967 L92.988,18.999 L92.988,29.008 L84.995,29.039 L84.995,18.999 L80.023,18.967 L79.991,11.956 L84.963,11.988 L84.995,10.197 C84.995,6.541 85.126,4.644 86.817,2.805 C88.538,0.945 91.165,-0.002 94.623,-0.002 C95.598,-0.002 96.472,0.028 97.230,0.096 C98.018,0.160 98.733,0.258 99.379,0.394 L99.953,0.640 L99.953,8.001 L98.954,7.957 C98.439,7.899 97.845,8.033 97.311,7.982 ZM77.036,34.036 L78.959,34.005 L79.022,50.927 L77.005,50.958 L77.036,34.036 ZM68.999,1.048 L78.007,1.016 L78.007,28.976 L68.999,28.944 L68.999,1.048 ZM61.570,50.958 L55.988,50.990 L56.020,33.974 L61.757,34.005 C67.346,34.005 69.915,36.993 69.915,42.408 C69.915,47.942 67.159,50.958 61.570,50.958 ZM66.403,37.884 C65.935,37.354 65.307,36.947 64.516,36.666 C63.721,36.380 62.974,35.957 61.767,35.957 L57.975,35.988 L57.975,48.976 L61.517,48.976 C62.715,48.976 63.956,48.644 64.752,48.356 C65.546,48.068 65.928,47.622 66.397,47.073 C66.869,46.528 67.194,45.862 67.388,45.076 C67.576,44.292 67.672,43.401 67.672,42.408 C67.672,41.453 67.576,40.592 67.388,39.828 C67.194,39.063 66.869,38.416 66.403,37.884 ZM39.149,26.522 C42.376,24.660 47.016,24.004 53.338,24.004 L55.040,24.004 C55.027,23.642 55.016,23.012 55.007,22.694 C54.977,22.131 55.056,21.515 54.965,21.169 C54.791,20.401 53.883,20.016 53.362,19.609 C52.823,19.143 51.740,18.632 49.392,18.632 C47.531,18.632 46.142,18.950 45.247,19.574 C44.466,20.121 44.026,20.754 43.991,21.958 L43.986,22.958 L34.956,22.989 L35.101,22.033 C35.400,17.248 38.122,11.014 49.665,11.014 C51.777,11.014 53.731,11.726 55.343,12.092 C57.027,12.471 58.557,13.120 59.887,14.023 C61.252,14.929 62.285,16.220 62.961,17.854 C63.596,19.416 63.963,20.332 63.963,22.971 L63.994,28.983 L37.040,28.983 C37.870,27.852 37.771,27.318 39.149,26.522 ZM24.978,50.958 L22.995,51.052 L22.995,35.988 L18.029,36.019 L17.997,34.005 L30.009,34.005 L30.041,35.957 L25.009,35.988 L24.978,50.958 ZM21.006,24.246 C21.006,23.248 21.090,22.239 20.945,21.548 C20.813,20.985 20.858,20.764 20.598,20.437 C20.360,20.136 20.058,19.918 19.665,19.780 C19.190,19.609 18.570,19.526 17.822,19.526 C16.754,19.526 15.670,19.806 14.598,20.365 C13.589,20.900 12.087,21.823 11.020,23.010 L11.014,28.963 L2.010,28.984 L1.999,0.045 L11.077,0.045 L11.020,8.733 C11.020,10.062 11.063,12.227 11.048,13.503 C11.042,13.781 11.096,14.341 11.096,14.613 C13.493,12.763 16.453,11.007 19.256,11.007 C26.729,11.007 29.963,15.389 29.963,23.446 L29.963,29.014 L21.006,28.983 L21.006,24.246 ZM4.628,34.335 C5.344,34.107 6.141,33.990 7.013,33.990 C7.935,33.990 8.776,34.107 9.534,34.335 C10.290,34.559 10.940,34.884 11.492,35.310 C12.043,35.736 12.478,36.252 12.790,36.864 C13.108,37.476 13.280,38.165 13.301,38.933 L11.188,38.933 C10.972,36.951 9.612,35.960 7.110,35.960 C5.886,35.960 4.949,36.185 4.288,36.642 C3.628,37.093 3.299,37.703 3.299,38.473 C3.299,38.819 3.358,39.120 3.481,39.363 C3.603,39.612 3.808,39.829 4.100,40.013 C4.392,40.201 4.782,40.372 5.264,40.518 C5.750,40.667 6.353,40.821 7.074,40.974 C7.570,41.079 8.072,41.192 8.592,41.310 C9.111,41.423 9.612,41.570 10.102,41.741 C10.594,41.907 11.057,42.115 11.492,42.352 C11.929,42.591 12.313,42.879 12.640,43.220 C12.968,43.560 13.225,43.963 13.418,44.429 C13.608,44.892 13.701,45.437 13.701,46.062 C13.701,46.780 13.550,47.444 13.248,48.044 C12.943,48.647 12.521,49.168 11.982,49.604 C11.436,50.041 10.792,50.383 10.050,50.632 C9.304,50.879 8.490,51.001 7.609,51.001 C6.450,51.001 5.439,50.861 4.571,50.589 C3.708,50.312 2.984,49.929 2.405,49.436 C1.826,48.942 1.389,48.354 1.088,47.668 C0.791,46.983 0.630,46.233 0.602,45.418 L2.692,45.418 C2.747,46.040 2.916,46.579 3.188,47.038 C3.462,47.495 3.818,47.873 4.245,48.174 C4.674,48.471 5.166,48.694 5.722,48.835 C6.274,48.975 6.866,49.045 7.500,49.045 C8.116,49.045 8.674,48.984 9.175,48.852 C9.673,48.723 10.104,48.538 10.462,48.294 C10.818,48.052 11.093,47.759 11.285,47.415 C11.479,47.068 11.577,46.680 11.577,46.240 C11.577,45.792 11.487,45.405 11.313,45.095 C11.132,44.783 10.841,44.512 10.443,44.275 C10.043,44.041 9.512,43.831 8.858,43.645 C8.205,43.459 7.402,43.266 6.454,43.074 C5.534,42.864 4.738,42.625 4.070,42.355 C3.401,42.093 2.855,41.778 2.423,41.416 C1.996,41.055 1.680,40.643 1.471,40.171 C1.263,39.702 1.161,39.163 1.161,38.557 C1.161,37.894 1.304,37.283 1.587,36.724 C1.871,36.165 2.268,35.685 2.782,35.282 C3.297,34.876 3.912,34.559 4.628,34.335 ZM36.999,34.036 L38.955,34.005 L38.955,43.743 C38.955,44.842 39.051,45.738 39.242,46.428 C39.433,47.121 39.707,47.663 40.073,48.052 C40.436,48.440 40.882,48.706 41.413,48.842 C41.944,48.977 42.551,49.045 43.245,49.045 C43.930,49.045 44.540,48.975 45.076,48.835 C45.607,48.694 46.054,48.425 46.410,48.032 C46.766,47.642 47.756,47.099 47.941,46.412 C48.127,45.725 48.036,44.833 48.036,43.743 L48.004,33.974 L50.010,34.005 L50.010,43.780 C50.010,44.912 50.101,46.051 49.907,46.947 C49.711,47.837 48.873,48.470 48.388,49.089 C47.901,49.707 47.240,50.181 46.410,50.508 C45.576,50.837 44.518,51.001 43.245,51.001 C42.224,51.001 41.354,50.898 40.643,50.691 C39.930,50.486 39.336,50.205 38.860,49.853 C38.379,49.502 38.003,49.092 37.729,48.623 C37.456,48.152 37.465,48.245 37.323,47.711 C37.179,47.176 37.062,46.249 37.025,45.678 C36.987,45.107 36.999,44.328 36.999,43.780 L36.999,34.036 ZM86.570,36.316 C87.268,35.577 88.100,35.006 89.061,34.600 C90.024,34.198 91.073,33.990 92.205,33.990 C93.348,33.990 94.399,34.198 95.356,34.605 C96.313,35.016 97.142,35.590 97.837,36.331 C98.536,37.071 99.079,37.962 99.473,39.008 C99.863,40.052 100.063,41.208 100.063,42.481 C100.063,43.743 99.865,44.895 99.478,45.940 C99.091,46.983 98.549,47.882 97.859,48.628 C97.165,49.377 96.338,49.958 95.376,50.374 C94.411,50.793 93.355,51.001 92.205,51.001 C91.058,51.001 89.999,50.793 89.040,50.380 C88.076,49.971 87.247,49.389 86.549,48.645 C85.853,47.902 85.310,47.006 84.922,45.957 C84.536,44.908 84.341,43.750 84.341,42.481 C84.341,41.200 84.536,40.039 84.927,38.994 C85.322,37.950 85.866,37.059 86.570,36.316 ZM87.009,45.283 C87.286,46.108 87.673,46.807 88.170,47.378 C88.669,47.949 89.257,48.383 89.942,48.684 C90.625,48.984 91.379,49.131 92.194,49.131 C93.011,49.131 93.765,48.984 94.450,48.684 C95.141,48.383 95.732,47.949 96.229,47.378 C96.729,46.807 97.117,46.108 97.395,45.283 C97.676,44.459 97.815,43.523 97.815,42.481 C97.815,41.436 97.676,40.501 97.395,39.681 C97.117,38.858 96.729,38.170 96.229,37.605 C95.732,37.044 95.146,36.612 94.464,36.316 C93.783,36.021 93.042,35.875 92.241,35.875 C91.426,35.875 90.670,36.023 89.978,36.321 C89.287,36.625 88.689,37.057 88.189,37.623 C87.687,38.189 87.294,38.882 87.015,39.700 C86.736,40.515 86.600,41.443 86.600,42.481 C86.600,43.523 86.736,44.459 87.009,45.283 Z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="wrapper">
+            <p>CONTACT US</p>
+            <h1>WHERE YOU CAN FIND US</h1>
+            <div class="yellow-line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid consequatur cumque dolorum est explicabo id iure labore maxime natus nostrum possimus quo soluta, veritatis voluptatibus! Aliquid, consectetur distinctio dolorum ex explicabo fuga in ipsa itaque laboriosam, obcaecati, officiis quae quaerat qui quia quidem ratione recusandae saepe suscipit unde velit.</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <svg class="bounce-left" xmlns="http://www.w3.org/2000/svg"
+                         width="34px" height="32px">
+                        <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                              d="M33.947,17.021 L27.964,11.350 L27.964,1.046 L22.985,1.014 L22.985,6.465 L16.969,0.012 L0.021,17.021 L0.052,17.993 L4.063,17.962 L4.031,28.957 L14.933,28.957 L14.933,22.004 L19.037,21.973 L19.006,28.988 L29.969,28.957 L30.001,17.962 L33.979,17.993 L33.947,17.021 Z"/>
+                    </svg>
+                    <h3>OUR ADDRESS</h3>
+                    <p>214 Awesome Street, NY</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <svg class="bounce-left" xmlns="http://www.w3.org/2000/svg"
+                         width="33px" height="32px">
+                        <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                              d="M16.469,0.527 C25.217,0.527 32.310,6.339 32.310,13.510 C32.310,20.680 25.217,26.493 16.469,26.493 C15.628,26.493 14.804,26.438 13.998,26.334 C10.596,29.767 6.535,30.382 2.607,30.473 L2.607,29.633 C4.727,28.585 6.567,26.676 6.567,24.495 C6.567,24.190 6.543,23.891 6.501,23.599 C2.919,21.219 0.628,17.584 0.628,13.510 C0.628,6.339 7.720,0.527 16.469,0.527 "/>
+                    </svg>
+                    <h3>OUR MAIL</h3>
+                    <p>awesomemail@ourmail.com</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <svg class="bounce-left" xmlns="http://www.w3.org/2000/svg"
+                         width="33px" height="32px">
+                        <path fill-rule="evenodd"  fill="rgb(255, 230, 0)"
+                              d="M23.826,19.334 C21.716,21.446 21.716,23.556 19.607,23.556 C17.496,23.556 15.385,21.446 13.274,19.334 C11.165,17.225 9.054,15.114 9.054,13.004 C9.054,10.893 11.165,10.893 13.274,8.783 C15.385,6.673 9.054,0.341 6.944,0.341 C4.833,0.341 0.613,6.673 0.613,6.673 C0.613,10.893 4.948,19.450 9.054,23.556 C13.159,27.661 21.716,31.998 25.937,31.998 C25.937,31.998 32.268,27.776 32.268,25.666 C32.268,23.556 25.937,17.225 23.826,19.334 "/>
+                    </svg>
+                    <h3>OUR PHONE</h3>
+                    <p>(0) 123-456-789-00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-form" id="contact">
+        <div class="wrapper">
+            <h1>SEND US MESSAGE</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolor impedit neque saepe sint unde!</p>
+            <form action="" class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="input">
+                        <input type="text" placeholder="Your Name" />
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="input">
+                        <input type="text" placeholder="Your Mail" />
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="input">
+                        <input type="text" placeholder="Subject" />
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="textarea">
+                        <textarea placeholder="Enter Message Here..."></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="SEND MESSAGE" />
+            </form>
+        </div>
+    </section>
+</main>
+<footer id="site-footer">
+    <p class="copyright">&#169 Copyright 2013 <span>Smak</span>. All Rights Reserved.</p>
+    <ul class="social-nav">
+        <li>
+            <a href="#">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="9px" height="18px">
+                    <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                          d="M5.009,18.009 L2.000,18.009 L2.031,9.968 L0.013,10.000 L0.044,6.957 L1.969,6.955 L1.997,5.355 C1.997,3.050 3.340,0.959 6.054,0.959 L8.033,0.928 L8.002,4.035 L6.433,4.004 C5.376,4.004 4.950,4.898 4.950,5.635 L5.040,6.986 L7.987,7.018 L7.999,9.999 L5.042,10.000 L5.009,18.009 Z"/>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="17px" height="18px">
+                    <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                          d="M8.500,17.733 C3.878,17.733 0.116,13.973 0.116,9.349 C0.116,4.727 3.878,0.967 8.500,0.967 C13.124,0.967 16.884,4.727 16.884,9.349 C16.884,13.973 13.124,17.733 8.500,17.733 M15.572,10.498 C15.325,10.421 13.355,9.832 11.112,10.191 C12.048,12.765 12.429,14.862 12.501,15.297 C14.108,14.211 15.253,12.490 15.572,10.498 M11.298,15.951 C11.191,15.324 10.775,13.135 9.769,10.522 C9.753,10.527 9.738,10.531 9.722,10.537 C5.684,11.946 4.234,14.746 4.106,15.009 C5.318,15.955 6.846,16.519 8.500,16.519 C9.492,16.521 10.438,16.318 11.298,15.951 M3.181,14.149 C3.343,13.871 5.308,10.617 9.002,9.423 C9.095,9.392 9.189,9.365 9.284,9.337 C9.103,8.931 8.909,8.523 8.704,8.122 C5.127,9.192 1.657,9.149 1.344,9.142 C1.342,9.215 1.340,9.287 1.340,9.361 C1.340,11.200 2.037,12.879 3.181,14.149 M1.490,7.893 C1.811,7.898 4.762,7.911 8.111,7.021 C6.926,4.912 5.645,3.139 5.456,2.880 C3.452,3.825 1.955,5.671 1.490,7.893 M6.822,2.399 C7.019,2.664 8.321,4.436 9.494,6.591 C12.040,5.637 13.118,4.187 13.246,4.003 C11.983,2.882 10.320,2.198 8.500,2.198 C7.922,2.198 7.361,2.271 6.822,2.399 M14.042,4.831 C13.892,5.037 12.692,6.575 10.045,7.656 C10.210,7.997 10.372,8.343 10.522,8.693 C10.574,8.816 10.625,8.941 10.674,9.062 C13.058,8.762 15.424,9.243 15.660,9.293 C15.646,7.604 15.043,6.051 14.042,4.831 "/>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20px" height="16px">
+                    <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                          d="M19.535,2.215 C18.828,2.529 18.065,2.742 17.267,2.838 C18.082,2.348 18.707,1.575 19.003,0.654 C18.240,1.106 17.397,1.435 16.497,1.612 C15.776,0.844 14.751,0.365 13.616,0.365 C11.435,0.365 9.669,2.132 9.669,4.312 C9.669,4.623 9.704,4.923 9.770,5.211 C6.489,5.048 3.580,3.475 1.635,1.087 C1.294,1.670 1.100,2.348 1.100,3.072 C1.100,4.441 1.797,5.651 2.856,6.358 C2.210,6.337 1.602,6.160 1.069,5.865 C1.068,5.880 1.068,5.898 1.068,5.913 C1.068,7.827 2.428,9.421 4.234,9.785 C3.902,9.875 3.553,9.923 3.193,9.923 C2.939,9.923 2.692,9.898 2.451,9.852 C2.954,11.420 4.411,12.561 6.138,12.594 C4.787,13.652 3.085,14.284 1.237,14.284 C0.917,14.284 0.602,14.264 0.295,14.229 C2.042,15.347 4.116,16.001 6.345,16.001 C13.606,16.001 17.576,9.986 17.576,4.770 C17.576,4.598 17.573,4.429 17.565,4.258 C18.337,3.702 19.005,3.006 19.535,2.215 "/>
+                </svg>
+            </a>
+        </li>
+
+        <li>
+            <a href="#">
+                <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="21px" height="18px">
+                    <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+                          d="M11.015,0.970 L5.977,0.970 C3.704,0.970 1.564,2.854 1.564,4.787 C1.564,6.761 3.114,8.354 5.427,8.354 C5.588,8.354 5.745,8.351 5.897,8.340 C5.747,8.619 5.639,8.932 5.639,9.257 C5.639,9.807 5.944,10.252 6.330,10.614 C6.037,10.614 5.756,10.623 5.451,10.623 C2.636,10.623 -0.000,12.329 -0.000,14.129 C-0.000,15.901 2.844,17.042 5.659,17.042 C8.870,17.042 10.953,15.279 10.953,13.505 C10.953,12.084 10.208,11.232 8.868,10.314 C8.409,10.001 7.534,9.235 7.534,8.788 C7.534,8.262 7.690,8.002 8.507,7.382 C9.346,6.748 9.938,5.857 9.938,4.820 C9.938,3.583 9.371,2.380 8.304,1.983 L10.975,2.014 L11.015,0.970 ZM9.275,13.263 C9.065,13.395 9.056,13.689 9.056,13.863 C9.056,15.295 7.998,16.009 5.680,16.009 C3.734,16.009 2.017,15.065 2.017,13.632 C2.017,12.228 4.040,11.058 5.987,11.078 C6.441,11.083 6.863,11.155 7.248,11.275 C8.304,11.986 9.063,12.389 9.275,13.200 M6.160,7.854 C4.853,7.817 3.613,6.439 3.387,4.779 C3.162,3.117 4.037,1.845 5.343,1.884 C6.649,1.921 7.891,3.255 8.117,4.915 C8.341,6.578 7.466,7.892 6.160,7.854 M15.993,4.926 L15.993,0.970 L15.000,0.970 L15.000,4.988 L10.991,5.019 L11.054,6.005 L15.032,5.973 L15.000,10.023 L15.993,9.991 L15.962,6.005 L20.000,5.973 L20.031,4.926 L15.993,4.926 Z"/>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</footer>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.viewportchecker.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
